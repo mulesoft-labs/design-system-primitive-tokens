@@ -1,0 +1,14 @@
+sudo: false
+dist: trusty
+language: node_js
+node_js:
+  - "8.11.4"
+install:
+  # Bypass the prepublish task to speed up the build
+  # Note: this also bypasses dependency install scripts
+  - npm install
+script:
+  - npm run lint
+cache:
+  directories:
+    - node_modules

@@ -1,0 +1,19 @@
+# Copyright (c) 2015-present, salesforce.com, inc. All rights reserved
+# Licensed under BSD 3-Clause - see LICENSE.txt or git.io/sfdc-license
+
+imports:
+- ./primitive/background-color.yml
+- ./primitive/border-color.yml
+- ./primitive/border-radius.yml
+- ./primitive/box-shadow.yml
+- ./primitive/duration.yml
+- ./primitive/font-family.yml
+- ./primitive/font-size.yml
+- ./primitive/font-weight.yml
+- ./primitive/line-height.yml
+- ./primitive/opacity.yml
+- ./primitive/palette-colors.yml
+- ./primitive/sizing.yml
+- ./primitive/spacing.yml
+- ./primitive/text-color.yml
+- ./primitive/z-index.yml
