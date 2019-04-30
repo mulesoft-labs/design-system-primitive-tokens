@@ -1,4 +1,4 @@
-# Salesforce Lightning Design System Primitive Tokens [![Build Status](https://travis-ci.org/salesforce-ux/design-system-primitive-tokens.svg?branch=master)](https://travis-ci.org/salesforce-ux/design-system-primitive-tokens)
+# Salesforce Lightning Design System Primitive Tokens
 
 Welcome to the [Salesforce Lightning Design System](https://www.lightningdesignsystem.com) Primitive Tokens brought to you by [Salesforce UX](https://twitter.com/salesforceux).
 
