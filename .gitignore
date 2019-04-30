@@ -7,10 +7,6 @@
 !/.gitignore
 !/.travis.yml
 
-# Don't commit the dist directory
-# that's where we build the icons
-/dist
-
 # Add a .gitkeep file in an empty
 # directory to check it in the repository
 !.gitkeep
