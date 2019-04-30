@@ -13,47 +13,47 @@ const rootPath = path.resolve.bind(path, root);
 
 // Define output types
 const config = {
-	web: [
-		'less',
-		'default.scss',
-		'map.scss',
-		'json',
-		'common.js',
-		'aura.tokens',
-		'custom-properties.css',
-	],
-	ios: ['ios.json'],
-	android: ['android.xml'],
-	raw: ['raw.json'],
+  web: [
+    'less',
+    'default.scss',
+    'map.scss',
+    'json',
+    'common.js',
+    'aura.tokens',
+    'custom-properties.css',
+  ],
+  ios: ['ios.json'],
+  android: ['android.xml'],
+  raw: ['raw.json'],
 };
 
 // Transform token formats into an object that Theo understands
 const formatTransforms = _(config)
-	.map((formats, transform) =>
-		formats.map(name => ({
-			name: name,
-			transform: transform,
-		})),
-	)
-	.flatten()
-	.value();
+  .map((formats, transform) =>
+    formats.map(name => ({
+      name: name,
+      transform: transform,
+    })),
+  )
+  .flatten()
+  .value();
 
 // Clean files from dist then generate tokens
 rimraf(rootPath('dist/*'), () => generate());
 
 // Generate tokens to dist for distribution
 const generate = done => {
-	const convert = ({name, transform}, done) => {
-		gulp
-			.src(path.resolve(rootPath('design-tokens'), '*.yml'))
-			.pipe(
-				gulpTheo({
-					transform: {type: transform},
-					format: {type: name},
-				}),
-			)
-			.pipe(gulp.dest('dist'))
-			.on('finish', done);
-	};
-	async.each(formatTransforms, convert, done);
+  const convert = ({name, transform}, done) => {
+    gulp
+      .src(path.resolve(rootPath('design-tokens/primitive'), 'base.yml'))
+      .pipe(
+        gulpTheo({
+          transform: {type: transform},
+          format: {type: name},
+        }),
+      )
+      .pipe(gulp.dest('dist'))
+      .on('finish', done);
+  };
+  async.each(formatTransforms, convert, done);
 };

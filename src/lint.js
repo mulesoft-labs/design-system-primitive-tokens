@@ -15,33 +15,33 @@ const root = path.resolve(__dirname, '../');
 const rootPath = path.resolve.bind(path, root);
 
 const prefixes = [
-	'BRAND',
-	'BORDER_RADIUS',
-	'BORDER_WIDTH',
-	'COLOR',
-	'COLOR_BACKGROUND',
-	'COLOR_BORDER',
-	'COLOR_TEXT',
-	'DURATION',
-	'ELEVATION',
-	'FONT_FAMILY',
-	'FONT_WEIGHT',
-	'FONT_SIZE',
-	'FLEX',
-	'LINE_HEIGHT',
-	'MAX_WIDTH',
-	'MAX_HEIGHT',
-	'MQ',
-	'OPACITY',
-	'HEIGHT',
-	'SIZE',
-	'SHADOW',
-	'SPACING',
-	'SQUARE',
-	'TIMING',
-	'WIDTH',
-	'VAR',
-	'Z_INDEX',
+  'BRAND',
+  'BORDER_RADIUS',
+  'BORDER_WIDTH',
+  'COLOR',
+  'COLOR_BACKGROUND',
+  'COLOR_BORDER',
+  'COLOR_TEXT',
+  'DURATION',
+  'ELEVATION',
+  'FONT_FAMILY',
+  'FONT_WEIGHT',
+  'FONT_SIZE',
+  'FLEX',
+  'LINE_HEIGHT',
+  'MAX_WIDTH',
+  'MAX_HEIGHT',
+  'MQ',
+  'OPACITY',
+  'HEIGHT',
+  'SIZE',
+  'SHADOW',
+  'SPACING',
+  'SQUARE',
+  'TIMING',
+  'WIDTH',
+  'VAR',
+  'Z_INDEX',
 ];
 
 /**
@@ -57,19 +57,19 @@ const jsonReporter = lint => log.error(JSON.stringify(lint));
  * @param {object} lint
  */
 const verboseReporter = (results, file) =>
-	results.forEach(error =>
-		log.error(
-			`[Lint: Tokens]: ${chalk.bgRed('FAIL')}`,
-			`${error.error}: ${error.token} in ${chalk.gray(file.path)}`,
-		),
-	);
+  results.forEach(error =>
+    log.error(
+      `[Lint: Tokens]: ${chalk.bgRed('FAIL')}`,
+      `${error.error}: ${error.token} in ${chalk.gray(file.path)}`,
+    ),
+  );
 
 /**
  * Need to check if naming convention follows
  * @param {string} tokenName
  */
 const prefixLint = tokenName =>
-	prefixes.some(prefix => tokenName.startsWith(prefix));
+  prefixes.some(prefix => tokenName.startsWith(prefix));
 
 /**
  * Class that pushes linting errors to an array
@@ -77,62 +77,62 @@ const prefixLint = tokenName =>
  * @param {object} pluginOptions
  */
 const TokenLint = function(tokens, pluginOptions = {}) {
-	let self = this;
+  let self = this;
 
-	if (!(self instanceof TokenLint)) {
-		return new TokenLint(tokens, pluginOptions);
-	}
+  if (!(self instanceof TokenLint)) {
+    return new TokenLint(tokens, pluginOptions);
+  }
 
-	self.options = _.defaults(pluginOptions || {}, {
-		prefix: false,
-		uppercase: true,
-		characterRange: true,
-	});
+  self.options = _.defaults(pluginOptions || {}, {
+    prefix: false,
+    uppercase: true,
+    characterRange: true,
+  });
 
-	self.errors = [];
+  self.errors = [];
 
-	/**
-	 * Linting Rules
-	 * @param {buffer} tokenName
-	 */
-	function _lintTokenName(tokenName) {
-		let errors = [];
+  /**
+   * Linting Rules
+   * @param {buffer} tokenName
+   */
+  function _lintTokenName(tokenName) {
+    let errors = [];
 
-		if (self.options.prefix && !prefixLint(tokenName)) {
-			errors.push('Token names should be prefixed appropriately');
-		}
-		if (self.options.uppercase && tokenName.toUpperCase() !== tokenName) {
-			errors.push('Token names should be uppercase');
-		}
-		if (self.options.characterRange && /[^A-Z0-9_]/.test(tokenName)) {
-			errors.push(
-				'Token names should only contain uppercase letters, underscores and numbers',
-			);
-		}
-		if (errors.length) {
-			throw errors;
-		}
-	}
+    if (self.options.prefix && !prefixLint(tokenName)) {
+      errors.push('Token names should be prefixed appropriately');
+    }
+    if (self.options.uppercase && tokenName.toUpperCase() !== tokenName) {
+      errors.push('Token names should be uppercase');
+    }
+    if (self.options.characterRange && /[^A-Z0-9_]/.test(tokenName)) {
+      errors.push(
+        'Token names should only contain uppercase letters, underscores and numbers',
+      );
+    }
+    if (errors.length) {
+      throw errors;
+    }
+  }
 
-	/**
-	 * Lint tokens and push errors to object for return
-	 */
-	Object.keys(tokens).forEach(token => {
-		try {
-			_lintTokenName(token);
-		} catch (err) {
-			err.forEach(error =>
-				self.errors.push({
-					token: token,
-					error: error,
-				}),
-			);
-		}
-	});
+  /**
+   * Lint tokens and push errors to object for return
+   */
+  Object.keys(tokens).forEach(token => {
+    try {
+      _lintTokenName(token);
+    } catch (err) {
+      err.forEach(error =>
+        self.errors.push({
+          token: token,
+          error: error,
+        }),
+      );
+    }
+  });
 
-	return {
-		errors: self.errors,
-	};
+  return {
+    errors: self.errors,
+  };
 };
 
 /**
@@ -142,52 +142,55 @@ const TokenLint = function(tokens, pluginOptions = {}) {
  * @param {string} reporter
  */
 const tokenlintPlugin = function(file, pluginOptions = {}, reporter) {
-	const tokens = yaml.safeLoad(file.contents.toString('utf8'));
+  const tokens = yaml.safeLoad(file.contents.toString('utf8'));
 
-	const tokenList = tokens.props
-		? tokens.props
-		: tokens.aliases
-		? tokens.aliases
-		: {};
+  const tokenList = tokens.props
+    ? tokens.props
+    : tokens.aliases
+    ? tokens.aliases
+    : {};
 
-	const result = TokenLint(tokenList, pluginOptions);
+  const result = TokenLint(tokenList, pluginOptions);
 
-	if (result.errors) {
-		if (result.errors.length > 0) {
-			let error = new PluginError(
-				`[Lint: Tokens]: `,
-				`[Lint: Tokens]: Found ${result.errors.length} linting error(s) in ${
-					file.path
-				}`,
-			);
-			log.error(chalk.red(`${error.message}`));
-			if (reporter === 'json') {
-				jsonReporter(result.errors);
-			} else if (reporter === 'verbose') {
-				verboseReporter(result.errors, file);
-			}
-		} else {
-			log(
-				`[Lint: Tokens]: ${chalk.bgGreen.black(
-					'PASS',
-				)} Found 0 linting error(s) in ${chalk.gray(file.path)} - Good Job :)`,
-			);
-		}
-	}
-	return result.errors.length;
+  if (result.errors) {
+    if (result.errors.length > 0) {
+      let error = new PluginError(
+        `[Lint: Tokens]: `,
+        `[Lint: Tokens]: Found ${result.errors.length} linting error(s) in ${
+          file.path
+        }`,
+      );
+      // throw new Error(log.error(chalk.red(`${error.message}`)));
+      if (reporter === 'json') {
+        jsonReporter(result.errors);
+      } else if (reporter === 'verbose') {
+        verboseReporter(result.errors, file);
+      }
+      throw new Error(
+        'Opps! Something went wrong, please fix the issues notes above',
+      );
+    } else {
+      log(
+        `[Lint: Tokens]: ${chalk.bgGreen.black(
+          'PASS',
+        )} Found 0 linting error(s) in ${chalk.gray(file.path)} - Good Job :)`,
+      );
+    }
+  }
+  return result.errors.length;
 };
 
 /**
  * Let us lint!
  */
 (() => {
-	gulp
-		.src(path.resolve(rootPath('design-tokens/primitive'), '*.yml'))
-		.pipe(yamlValidate())
-		.pipe(
-			through.obj((chunk, enc, next) => {
-				tokenlintPlugin(chunk, {prefix: true}, 'verbose');
-				next();
-			}),
-		);
+  gulp
+    .src(path.resolve(rootPath('design-tokens/primitive'), '*.yml'))
+    .pipe(yamlValidate())
+    .pipe(
+      through.obj((chunk, enc, next) => {
+        tokenlintPlugin(chunk, {prefix: true}, 'verbose');
+        next();
+      }),
+    );
 })();

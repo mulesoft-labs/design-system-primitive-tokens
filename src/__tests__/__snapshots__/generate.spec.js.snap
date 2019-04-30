@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`primitive tokens check that alias files are found 1`] = `
+Array [
+  "border-radius.yml",
+  "border-width.yml",
+  "color-palettes.yml",
+  "colors.yml",
+  "duration.yml",
+  "font-family.yml",
+  "font-size.yml",
+  "font-weight.yml",
+  "offset.yml",
+  "sizing.yml",
+  "spacing.yml",
+]
+`;
+
+exports[`primitive tokens check that token files are found 1`] = `
+Array [
+  "background-color.yml",
+  "base.yml",
+  "border-color.yml",
+  "border-radius.yml",
+  "border-width.yml",
+  "box-shadow.yml",
+  "duration.yml",
+  "font-family.yml",
+  "font-size.yml",
+  "font-weight.yml",
+  "line-height.yml",
+  "opacity.yml",
+  "palette-colors.yml",
+  "sizing.yml",
+  "spacing.yml",
+  "text-color.yml",
+  "z-index.yml",
+]
+`;

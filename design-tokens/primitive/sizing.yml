@@ -17,6 +17,7 @@ global:
   - 'margin*'
   - 'padding*'
   - transform
+  primitive: true
 imports:
 - ../aliases/sizing.yml
 props:
