@@ -18,6 +18,7 @@ global:
   - box-shadow
   - stroke
   - stroke-width
+  scope: global
   primitive: true
 imports:
 - ../aliases/spacing.yml

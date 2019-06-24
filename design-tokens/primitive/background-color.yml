@@ -8,7 +8,7 @@ global:
   - 'background*'
   - 'border*'
   - box-shadow
-
+  scope: global
   primitive: true
 imports:
 - ../aliases/colors.yml

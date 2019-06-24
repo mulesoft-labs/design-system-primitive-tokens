@@ -6,6 +6,7 @@ global:
   category: z-index
   cssProperties:
   - z-index
+  scope: global
   primitive: true
 props:
   Z_INDEX_TOAST:

@@ -10,6 +10,7 @@ global:
   - box-shadow
   - fill
   - color
+  scope: global
   primitive: true
 imports:
 - ../aliases/color-palettes.yml
