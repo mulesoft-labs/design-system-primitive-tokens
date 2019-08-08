@@ -635,6 +635,7 @@
       "primitive": true,
       "name": "COLOR_BACKGROUND_ROW_ACTIVE",
       "value": "#F2F2F3",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
@@ -650,6 +651,7 @@
       "primitive": true,
       "name": "COLOR_BACKGROUND_LIGHT",
       "value": "#FFFFFF",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
@@ -665,6 +667,7 @@
       "primitive": true,
       "name": "COLOR_BACKGROUND_ROW_HOVER",
       "value": "#F9F9FA",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
@@ -675,32 +678,34 @@
       "comment": "Used as the background color for the hover state on rows or items on list-like components."
     },
     "COLOR_BACKGROUND_ERROR_DARK": {
-      "type": "color",
-      "category": "background-color",
+      "originalValue": "{!FLUSH_MAHOGANY}",
+      "primitive": true,
+      "name": "COLOR_BACKGROUND_ERROR_DARK",
+      "value": "#C23934",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
         "box-shadow"
       ],
-      "primitive": true,
-      "value": "#C23934",
-      "comment": "Dark color for UI elements related to errors. Accessible with white text.",
-      "originalValue": "{!FLUSH_MAHOGANY}",
-      "name": "COLOR_BACKGROUND_ERROR_DARK"
+      "type": "color",
+      "category": "background-color",
+      "comment": "Dark color for UI elements related to errors. Accessible with white text."
     },
     "COLOR_BACKGROUND_INFO": {
-      "type": "color",
-      "category": "background-color",
+      "originalValue": "{!PALETTE_COOL_GRAY_9}",
+      "primitive": true,
+      "name": "COLOR_BACKGROUND_INFO",
+      "value": "#6B6D70",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
         "box-shadow"
       ],
-      "primitive": true,
-      "value": "#6B6D70",
-      "comment": "Background color for UI elements related to providing neutral information (not error, success, or warning).",
-      "originalValue": "{!PALETTE_COOL_GRAY_9}",
-      "name": "COLOR_BACKGROUND_INFO"
+      "type": "color",
+      "category": "background-color",
+      "comment": "Background color for UI elements related to providing neutral information (not error, success, or warning)."
     },
     "COLOR_BACKGROUND_ALT_INVERSE": {
       "originalValue": "{!BISCAY}",
@@ -709,6 +714,7 @@
       "primitive": true,
       "name": "COLOR_BACKGROUND_ALT_INVERSE",
       "value": "#16325C",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
@@ -724,6 +730,7 @@
       "primitive": true,
       "name": "COLOR_BACKGROUND_ROW_NEW",
       "value": "#D9FFDF",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
@@ -734,18 +741,19 @@
       "comment": "Used as the background color for the new state on rows or items on list-like components."
     },
     "COLOR_BACKGROUND_SUCCESS_DARK": {
-      "type": "color",
-      "category": "background-color",
+      "originalValue": "{!SALEM}",
+      "primitive": true,
+      "name": "COLOR_BACKGROUND_SUCCESS_DARK",
+      "value": "#04844B",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
         "box-shadow"
       ],
-      "primitive": true,
-      "value": "#04844B",
-      "comment": "Dark color for UI elements that have to do with success. Accessible with white text.",
-      "originalValue": "{!SALEM}",
-      "name": "COLOR_BACKGROUND_SUCCESS_DARK"
+      "type": "color",
+      "category": "background-color",
+      "comment": "Dark color for UI elements that have to do with success. Accessible with white text."
     },
     "COLOR_BACKGROUND_STENCIL": {
       "originalValue": "{!PALETTE_COOL_GRAY_3}",
@@ -753,6 +761,7 @@
       "primitive": true,
       "name": "COLOR_BACKGROUND_STENCIL",
       "value": "#F2F2F3",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
@@ -763,46 +772,49 @@
       "comment": "Used as background for loading stencils on white background."
     },
     "COLOR_BACKGROUND_WARNING": {
-      "type": "color",
-      "category": "background-color",
+      "originalValue": "{!KOROMIKO}",
+      "primitive": true,
+      "name": "COLOR_BACKGROUND_WARNING",
+      "value": "#FFB75D",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
         "box-shadow"
       ],
-      "primitive": true,
-      "value": "#FFB75D",
-      "comment": "Color for UI elements that have to do with warning.",
-      "originalValue": "{!KOROMIKO}",
-      "name": "COLOR_BACKGROUND_WARNING"
+      "type": "color",
+      "category": "background-color",
+      "comment": "Color for UI elements that have to do with warning."
     },
     "COLOR_BACKGROUND_HIGHLIGHT_SEARCH": {
-      "type": "color",
-      "category": "background-color",
+      "originalValue": "{!GORSE}",
+      "primitive": true,
+      "name": "COLOR_BACKGROUND_HIGHLIGHT_SEARCH",
+      "value": "#fff03f",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
         "box-shadow"
       ],
-      "primitive": true,
-      "value": "#fff03f",
-      "comment": "Background color for highlighting text in search results.",
-      "originalValue": "{!GORSE}",
-      "name": "COLOR_BACKGROUND_HIGHLIGHT_SEARCH"
+      "type": "color",
+      "category": "background-color",
+      "comment": "Background color for highlighting text in search results."
     },
     "COLOR_BACKGROUND_DESTRUCTIVE_HOVER": {
-      "type": "color",
-      "category": "background-color",
+      "originalValue": "{!TABASCO}",
+      "primitive": true,
+      "name": "COLOR_BACKGROUND_DESTRUCTIVE_HOVER",
+      "value": "#A61A14",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
         "box-shadow"
       ],
-      "primitive": true,
-      "value": "#A61A14",
-      "comment": "Hover color for UI elements related to destructive actions.",
-      "originalValue": "{!TABASCO}",
-      "name": "COLOR_BACKGROUND_DESTRUCTIVE_HOVER"
+      "type": "color",
+      "category": "background-color",
+      "comment": "Hover color for UI elements related to destructive actions."
     },
     "COLOR_BACKGROUND": {
       "originalValue": "{!PALETTE_COOL_GRAY_2}",
@@ -811,6 +823,7 @@
       "primitive": true,
       "name": "COLOR_BACKGROUND",
       "value": "#F9F9FA",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
@@ -826,6 +839,7 @@
       "primitive": true,
       "name": "COLOR_BRAND_DARK",
       "value": "#0070D2",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
@@ -836,18 +850,19 @@
       "comment": "Our product brand blue, darkened to meet accessibility color contrast ratios with white text."
     },
     "COLOR_BACKGROUND_BACKDROP": {
-      "type": "color",
-      "category": "background-color",
+      "originalValue": "{!WHITE_TRANSPARENT_75}",
+      "primitive": true,
+      "name": "COLOR_BACKGROUND_BACKDROP",
+      "value": "rgba(255, 255, 255, 0.75)",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
         "box-shadow"
       ],
-      "primitive": true,
-      "value": "rgba(255, 255, 255, 0.75)",
-      "comment": "The color of the mask overlay that appears when you enter a modal state.",
-      "originalValue": "{!WHITE_TRANSPARENT_75}",
-      "name": "COLOR_BACKGROUND_BACKDROP"
+      "type": "color",
+      "category": "background-color",
+      "comment": "The color of the mask overlay that appears when you enter a modal state."
     },
     "COLOR_BACKGROUND_DARK": {
       "originalValue": "{!PALETTE_COOL_GRAY_4}",
@@ -855,6 +870,7 @@
       "primitive": true,
       "name": "COLOR_BACKGROUND_DARK",
       "value": "#E9EAEC",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
@@ -870,6 +886,7 @@
       "primitive": true,
       "name": "COLOR_BRAND",
       "value": "#1589EE",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
@@ -880,60 +897,64 @@
       "comment": "Our product brand blue."
     },
     "COLOR_BACKGROUND_DESTRUCTIVE": {
-      "type": "color",
-      "category": "background-color",
+      "originalValue": "{!FLUSH_MAHOGANY}",
+      "primitive": true,
+      "name": "COLOR_BACKGROUND_DESTRUCTIVE",
+      "value": "#C23934",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
         "box-shadow"
       ],
-      "primitive": true,
-      "value": "#C23934",
-      "comment": "Color for UI elements related to destructive actions.",
-      "originalValue": "{!FLUSH_MAHOGANY}",
-      "name": "COLOR_BACKGROUND_DESTRUCTIVE"
+      "type": "color",
+      "category": "background-color",
+      "comment": "Color for UI elements related to destructive actions."
     },
     "COLOR_BACKGROUND_SUCCESS": {
-      "type": "color",
-      "category": "background-color",
+      "originalValue": "{!EMERALD}",
+      "primitive": true,
+      "name": "COLOR_BACKGROUND_SUCCESS",
+      "value": "#4BCA81",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
         "box-shadow"
       ],
-      "primitive": true,
-      "value": "#4BCA81",
-      "comment": "Color for UI elements that have to do with success.",
-      "originalValue": "{!EMERALD}",
-      "name": "COLOR_BACKGROUND_SUCCESS"
+      "type": "color",
+      "category": "background-color",
+      "comment": "Color for UI elements that have to do with success."
     },
     "COLOR_BACKGROUND_WARNING_DARK": {
-      "type": "color",
-      "category": "background-color",
+      "originalValue": "{!SUNSHADE}",
+      "primitive": true,
+      "name": "COLOR_BACKGROUND_WARNING_DARK",
+      "value": "#FF9E2C",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
         "box-shadow"
       ],
-      "primitive": true,
-      "value": "#FF9E2C",
-      "comment": "Dark Color for UI elements that have to do with warning.",
-      "originalValue": "{!SUNSHADE}",
-      "name": "COLOR_BACKGROUND_WARNING_DARK"
+      "type": "color",
+      "category": "background-color",
+      "comment": "Dark Color for UI elements that have to do with warning."
     },
     "COLOR_BACKGROUND_OFFLINE": {
-      "type": "color",
-      "category": "background-color",
+      "originalValue": "{!PALETTE_COOL_GRAY_11}",
+      "primitive": true,
+      "name": "COLOR_BACKGROUND_OFFLINE",
+      "value": "#3E4041",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
         "box-shadow"
       ],
-      "primitive": true,
-      "value": "#3E4041",
-      "comment": "Color for UI elements related to the offline state.",
-      "originalValue": "{!PALETTE_COOL_GRAY_11}",
-      "name": "COLOR_BACKGROUND_OFFLINE"
+      "type": "color",
+      "category": "background-color",
+      "comment": "Color for UI elements related to the offline state."
     },
     "COLOR_BACKGROUND_STENCIL_ALT": {
       "originalValue": "{!PALETTE_COOL_GRAY_4}",
@@ -941,6 +962,7 @@
       "primitive": true,
       "name": "COLOR_BACKGROUND_STENCIL_ALT",
       "value": "#E9EAEC",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
@@ -956,6 +978,7 @@
       "primitive": true,
       "name": "COLOR_BACKGROUND_INVERSE_LIGHT",
       "value": "#16325C",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
@@ -966,32 +989,34 @@
       "comment": "Light variant of COLOR_BACKGROUND_INVERSE."
     },
     "COLOR_BACKGROUND_CUSTOMER": {
-      "type": "color",
-      "category": "background-color",
+      "originalValue": "{!TANGERINE}",
+      "primitive": true,
+      "name": "COLOR_BACKGROUND_CUSTOMER",
+      "value": "#FF9A3C",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
         "box-shadow"
       ],
-      "primitive": true,
-      "value": "#FF9A3C",
-      "comment": "Background color for UI elements related to the concept of an external user or customer.",
-      "originalValue": "{!TANGERINE}",
-      "name": "COLOR_BACKGROUND_CUSTOMER"
+      "type": "color",
+      "category": "background-color",
+      "comment": "Background color for UI elements related to the concept of an external user or customer."
     },
     "COLOR_BACKGROUND_ERROR": {
-      "type": "color",
-      "category": "background-color",
+      "originalValue": "{!VALENCIA}",
+      "primitive": true,
+      "name": "COLOR_BACKGROUND_ERROR",
+      "value": "#D4504C",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
         "box-shadow"
       ],
-      "primitive": true,
-      "value": "#D4504C",
-      "comment": "Color for UI elements related to errors.",
-      "originalValue": "{!VALENCIA}",
-      "name": "COLOR_BACKGROUND_ERROR"
+      "type": "color",
+      "category": "background-color",
+      "comment": "Color for UI elements related to errors."
     },
     "COLOR_BACKGROUND_ALT": {
       "originalValue": "{!WHITE}",
@@ -1000,6 +1025,7 @@
       "primitive": true,
       "name": "COLOR_BACKGROUND_ALT",
       "value": "#FFFFFF",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
@@ -1010,18 +1036,19 @@
       "comment": "Second default background color for the app."
     },
     "COLOR_BACKGROUND_SUCCESS_DARKER": {
-      "type": "color",
-      "category": "background-color",
+      "originalValue": "{!KAITOKE_GREEN}",
+      "primitive": true,
+      "name": "COLOR_BACKGROUND_SUCCESS_DARKER",
+      "value": "#004a29",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
         "box-shadow"
       ],
-      "primitive": true,
-      "value": "#004a29",
-      "comment": "Darker color for UI elements that have to do with success. Accessible with white text.",
-      "originalValue": "{!KAITOKE_GREEN}",
-      "name": "COLOR_BACKGROUND_SUCCESS_DARKER"
+      "type": "color",
+      "category": "background-color",
+      "comment": "Darker color for UI elements that have to do with success. Accessible with white text."
     },
     "COLOR_BACKGROUND_ROW_SELECTED": {
       "originalValue": "{!PALETTE_COOL_GRAY_4}",
@@ -1029,6 +1056,7 @@
       "primitive": true,
       "name": "COLOR_BACKGROUND_ROW_SELECTED",
       "value": "#E9EAEC",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
@@ -1039,46 +1067,49 @@
       "comment": "Used as the background color for selected rows or items on list-like components."
     },
     "COLOR_BRAND_DARKER": {
-      "type": "color",
-      "category": "background-color",
+      "originalValue": "{!ENDEAVOUR}",
+      "primitive": true,
+      "name": "COLOR_BRAND_DARKER",
+      "value": "#005FB2",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
         "box-shadow"
       ],
-      "primitive": true,
-      "value": "#005FB2",
-      "comment": "Our product brand blue, darkened even further.",
-      "originalValue": "{!ENDEAVOUR}",
-      "name": "COLOR_BRAND_DARKER"
+      "type": "color",
+      "category": "background-color",
+      "comment": "Our product brand blue, darkened even further."
     },
     "COLOR_BACKGROUND_SELECTION": {
-      "type": "color",
-      "category": "background-color",
+      "originalValue": "{!PATTEN_BLUE}",
+      "primitive": true,
+      "name": "COLOR_BACKGROUND_SELECTION",
+      "value": "#D8EDFF",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
         "box-shadow"
       ],
-      "primitive": true,
-      "value": "#D8EDFF",
-      "comment": "Background color for text selected with a mouse.",
-      "originalValue": "{!PATTEN_BLUE}",
-      "name": "COLOR_BACKGROUND_SELECTION"
+      "type": "color",
+      "category": "background-color",
+      "comment": "Background color for text selected with a mouse."
     },
     "COLOR_BACKGROUND_DESTRUCTIVE_ACTIVE": {
-      "type": "color",
-      "category": "background-color",
+      "originalValue": "{!MAROON}",
+      "primitive": true,
+      "name": "COLOR_BACKGROUND_DESTRUCTIVE_ACTIVE",
+      "value": "#870500",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
         "box-shadow"
       ],
-      "primitive": true,
-      "value": "#870500",
-      "comment": "Active color for UI elements related to destructive actions.",
-      "originalValue": "{!MAROON}",
-      "name": "COLOR_BACKGROUND_DESTRUCTIVE_ACTIVE"
+      "type": "color",
+      "category": "background-color",
+      "comment": "Active color for UI elements related to destructive actions."
     },
     "COLOR_BACKGROUND_INVERSE": {
       "originalValue": "{!DEEP_COVE}",
@@ -1087,6 +1118,7 @@
       "primitive": true,
       "name": "COLOR_BACKGROUND_INVERSE",
       "value": "#061C3F",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
@@ -1102,6 +1134,7 @@
       "primitive": true,
       "name": "COLOR_BACKGROUND_HIGHLIGHT",
       "value": "#FAFFBD",
+      "scope": "global",
       "cssProperties": [
         "background*",
         "border*",
@@ -1563,19 +1596,6 @@
       "type": "size",
       "category": "radius"
     },
-    "BORDER_RADIUS_PILL": {
-      "originalValue": "{!BORDER_RADIUS_PILL}",
-      "access": "global",
-      "primitive": true,
-      "name": "BORDER_RADIUS_PILL",
-      "value": "15rem",
-      "scope": "global",
-      "cssProperties": [
-        "border*radius"
-      ],
-      "type": "size",
-      "category": "radius"
-    },
     "BORDER_RADIUS_CIRCLE": {
       "originalValue": "{!BORDER_RADIUS_CIRCLE}",
       "access": "global",
@@ -1591,9 +1611,19 @@
       "comment": "Circle for global use, action icon bgd shape"
     },
     "BORDER_WIDTH_THIN": {
-      "category": "border-style",
-      "type": "size",
+      "originalValue": "1px",
+      "access": "global",
+      "primitive": true,
+      "name": "BORDER_WIDTH_THIN",
+      "value": "1px",
+      "scope": "global",
       "cssProperties": [
+        "top",
+        "right",
+        "bottom",
+        "left",
+        "margin*",
+        "padding*",
         "border*",
         "*width",
         "*height",
@@ -1601,60 +1631,32 @@
         "stroke",
         "stroke-width"
       ],
-      "primitive": true,
-      "value": "1px",
-      "access": "global",
-      "originalValue": "1px",
-      "name": "BORDER_WIDTH_THIN"
+      "type": "size",
+      "category": "border-style"
     },
     "BORDER_WIDTH_THICK": {
-      "category": "border-style",
-      "type": "size",
-      "cssProperties": [
-        "border*",
-        "*width",
-        "*height",
-        "box-shadow",
-        "stroke",
-        "stroke-width"
-      ],
-      "primitive": true,
-      "value": "2px",
-      "access": "global",
       "originalValue": "2px",
-      "name": "BORDER_WIDTH_THICK"
-    },
-    "BORDER_STROKE_WIDTH_THIN": {
-      "category": "border-style",
-      "type": "size",
-      "cssProperties": [
-        "border*",
-        "*width",
-        "*height",
-        "box-shadow",
-        "stroke",
-        "stroke-width"
-      ],
+      "access": "global",
       "primitive": true,
-      "value": "1px",
-      "originalValue": "{!BORDER_WIDTH_THIN}",
-      "name": "BORDER_STROKE_WIDTH_THIN"
-    },
-    "BORDER_STROKE_WIDTH_THICK": {
-      "category": "border-style",
-      "type": "size",
-      "cssProperties": [
-        "border*",
-        "*width",
-        "*height",
-        "box-shadow",
-        "stroke",
-        "stroke-width"
-      ],
-      "primitive": true,
+      "name": "BORDER_WIDTH_THICK",
       "value": "2px",
-      "originalValue": "{!BORDER_WIDTH_THICK}",
-      "name": "BORDER_STROKE_WIDTH_THICK"
+      "scope": "global",
+      "cssProperties": [
+        "top",
+        "right",
+        "bottom",
+        "left",
+        "margin*",
+        "padding*",
+        "border*",
+        "*width",
+        "*height",
+        "box-shadow",
+        "stroke",
+        "stroke-width"
+      ],
+      "type": "size",
+      "category": "border-style"
     },
     "SHADOW_DRAG": {
       "originalValue": "{!OFFSET_NONE} {!OFFSET_X_SMALL}px {!OFFSET_MEDIUM}px {!OFFSET_NONE} {!BLACK_TRANSPARENT_40}",
@@ -1683,20 +1685,6 @@
       "type": "box-shadow",
       "category": "shadow",
       "comment": "Shadow for drop down."
-    },
-    "SHADOW_HEADER": {
-      "originalValue": "{!OFFSET_NONE} {!OFFSET_X_SMALL}px {!OFFSET_MEDIUM}px {!BLACK_TRANSPARENT_07}",
-      "access": "global",
-      "primitive": true,
-      "name": "SHADOW_HEADER",
-      "value": "0 2px 4px rgba(0, 0, 0, 0.07)",
-      "scope": "global",
-      "cssProperties": [
-        "box-shadow"
-      ],
-      "type": "box-shadow",
-      "category": "shadow",
-      "comment": "Shadow for header."
     },
     "DURATION_INSTANTLY": {
       "originalValue": "{!DURATION_INSTANTLY}",
@@ -2143,6 +2131,7 @@
       "primitive": true,
       "name": "FONT_WEIGHT_LIGHT",
       "value": "300",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-weight"
@@ -2157,6 +2146,7 @@
       "primitive": true,
       "name": "FONT_WEIGHT_REGULAR",
       "value": "400",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-weight"
@@ -2171,6 +2161,7 @@
       "primitive": true,
       "name": "FONT_WEIGHT_BOLD",
       "value": "700",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-weight"
@@ -2185,6 +2176,7 @@
       "primitive": true,
       "name": "LINE_HEIGHT_HEADING",
       "value": "1.25",
+      "scope": "global",
       "cssProperties": [
         "font",
         "*height"
@@ -2199,6 +2191,7 @@
       "primitive": true,
       "name": "LINE_HEIGHT_TEXT",
       "value": "1.5",
+      "scope": "global",
       "cssProperties": [
         "font",
         "*height"
@@ -2213,6 +2206,7 @@
       "primitive": true,
       "name": "LINE_HEIGHT_RESET",
       "value": "1",
+      "scope": "global",
       "cssProperties": [
         "font",
         "*height"
@@ -2221,56 +2215,45 @@
       "category": "line-height",
       "comment": "Remove extra leading. Unitless line-heights for reusability"
     },
-    "LINE_HEIGHT_TAB": {
-      "originalValue": "2.5rem",
-      "access": "global",
-      "primitive": true,
-      "name": "LINE_HEIGHT_TAB",
-      "value": "2.5rem",
-      "cssProperties": [
-        "font",
-        "*height"
-      ],
-      "type": "number",
-      "category": "line-height",
-      "comment": "Line heights for tabs"
-    },
     "VAR_LINE_HEIGHT_TEXT": {
-      "category": "line-height",
-      "type": "number",
+      "originalValue": "1.5",
+      "primitive": true,
+      "name": "VAR_LINE_HEIGHT_TEXT",
+      "value": "1.5",
+      "scope": "global",
       "cssProperties": [
         "font",
         "*height"
       ],
-      "primitive": true,
-      "value": "1.5",
-      "comment": "Variable unitless line-heights for reusability",
-      "originalValue": "1.5",
-      "name": "VAR_LINE_HEIGHT_TEXT"
+      "type": "number",
+      "category": "line-height",
+      "comment": "Variable unitless line-heights for reusability"
     },
     "OPACITY_5": {
-      "type": "opacity",
-      "category": "opacity",
+      "originalValue": "0.5",
+      "primitive": true,
+      "name": "OPACITY_5",
+      "value": "0.5",
+      "scope": "global",
       "cssProperties": [
         "opacity"
       ],
-      "primitive": true,
-      "value": "0.5",
-      "comment": "50% transparency of an element",
-      "originalValue": "0.5",
-      "name": "OPACITY_5"
+      "type": "opacity",
+      "category": "opacity",
+      "comment": "50% transparency of an element"
     },
     "OPACITY_8": {
-      "type": "opacity",
-      "category": "opacity",
+      "originalValue": "0.8",
+      "primitive": true,
+      "name": "OPACITY_8",
+      "value": "0.8",
+      "scope": "global",
       "cssProperties": [
         "opacity"
       ],
-      "primitive": true,
-      "value": "0.8",
-      "comment": "80% transparency of an element",
-      "originalValue": "0.8",
-      "name": "OPACITY_8"
+      "type": "opacity",
+      "category": "opacity",
+      "comment": "80% transparency of an element"
     },
     "BRAND_HEADER_CONTRAST_WEAK_DISABLED": {
       "originalValue": "rgba(166,166,166,0.25)",
@@ -2279,6 +2262,7 @@
       "primitive": true,
       "name": "BRAND_HEADER_CONTRAST_WEAK_DISABLED",
       "value": "rgba(166,166,166,0.25)",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2296,6 +2280,7 @@
       "primitive": true,
       "name": "COLOR_GRAY_11",
       "value": "#3e3e3c",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2314,6 +2299,7 @@
       "primitive": true,
       "name": "BRAND_PRIMARY_TRANSPARENT_10",
       "value": "rgba(21,137,238,0.1)",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2331,6 +2317,7 @@
       "primitive": true,
       "name": "COLOR_GRAY_12",
       "value": "#2B2826",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2349,6 +2336,7 @@
       "primitive": true,
       "name": "BRAND_BACKGROUND_DARK_TRANSPARENT",
       "value": "rgba(221,219,218,0)",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2366,6 +2354,7 @@
       "primitive": true,
       "name": "COLOR_GRAY_13",
       "value": "#080707",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2384,6 +2373,7 @@
       "primitive": true,
       "name": "BRAND_HEADER",
       "value": "#ffffff",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2402,6 +2392,7 @@
       "primitive": true,
       "name": "BRAND_LIGHT_ACTIVE",
       "value": "#e3e5ed",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2420,6 +2411,7 @@
       "primitive": true,
       "name": "BRAND_HEADER_CONTRAST_WARM",
       "value": "#BF0201",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2438,6 +2430,7 @@
       "primitive": true,
       "name": "BRAND_HEADER_ICON_DISABLED",
       "value": "rgba(145,145,145,0.25)",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2456,6 +2449,7 @@
       "primitive": true,
       "name": "BRAND_HEADER_CONTRAST_ACTIVE",
       "value": "#505050",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2474,6 +2468,7 @@
       "primitive": true,
       "name": "BRAND_BACKGROUND_PRIMARY",
       "value": "#fafaf9",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2492,6 +2487,7 @@
       "primitive": true,
       "name": "BRAND_PRIMARY",
       "value": "#1589ee",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2510,6 +2506,7 @@
       "primitive": true,
       "name": "BRAND_HEADER_CONTRAST_WEAK_ACTIVE",
       "value": "#818181",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2528,6 +2525,7 @@
       "primitive": true,
       "name": "BRAND_CONTRAST_ACTIVE",
       "value": "#0d0e12",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2546,6 +2544,7 @@
       "primitive": true,
       "name": "BRAND_HEADER_CONTRAST_COOL",
       "value": "#005583",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2564,6 +2563,7 @@
       "primitive": true,
       "name": "BRAND_HEADER_CONTRAST_INVERSE",
       "value": "#ffffff",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2582,6 +2582,7 @@
       "primitive": true,
       "name": "BRAND_DARK",
       "value": "#182337",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2600,6 +2601,7 @@
       "primitive": true,
       "name": "BRAND_ACCESSIBLE",
       "value": "#0070d2",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2618,6 +2620,7 @@
       "primitive": true,
       "name": "BRAND_BACKGROUND_DARK",
       "value": "#e8e8e8",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2636,6 +2639,7 @@
       "primitive": true,
       "name": "BRAND_TEXT_LINK_ACTIVE",
       "value": "#005fb2",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2653,6 +2657,7 @@
       "primitive": true,
       "name": "COLOR_GRAY_1",
       "value": "#FFFFFF",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2670,6 +2675,7 @@
       "primitive": true,
       "name": "COLOR_GRAY_2",
       "value": "#fafaf9",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2688,6 +2694,7 @@
       "primitive": true,
       "name": "BRAND_HEADER_ICON_ACTIVE",
       "value": "#818181",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2705,6 +2712,7 @@
       "primitive": true,
       "name": "COLOR_GRAY_3",
       "value": "#f3f2f2",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2723,6 +2731,7 @@
       "primitive": true,
       "name": "BRAND_HEADER_ICON",
       "value": "#919191",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2741,6 +2750,7 @@
       "primitive": true,
       "name": "BRAND_DISABLED",
       "value": "#c9c7c5",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2759,6 +2769,7 @@
       "primitive": true,
       "name": "BRAND_TEXT_LINK",
       "value": "#006DCC",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2776,6 +2787,7 @@
       "primitive": true,
       "name": "COLOR_GRAY_4",
       "value": "#ecebea",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2793,6 +2805,7 @@
       "primitive": true,
       "name": "COLOR_GRAY_5",
       "value": "#dddbda",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2810,6 +2823,7 @@
       "primitive": true,
       "name": "COLOR_GRAY_6",
       "value": "#c9c7c5",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2828,6 +2842,7 @@
       "primitive": true,
       "name": "BRAND_ACCESSIBLE_ACTIVE",
       "value": "#005fb2",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2845,6 +2860,7 @@
       "primitive": true,
       "name": "COLOR_GRAY_7",
       "value": "#b0adab",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2863,6 +2879,7 @@
       "primitive": true,
       "name": "BRAND_DARK_ACTIVE",
       "value": "#253045",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2880,6 +2897,7 @@
       "primitive": true,
       "name": "COLOR_GRAY_8",
       "value": "#969492",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2898,6 +2916,7 @@
       "primitive": true,
       "name": "BRAND_HEADER_CONTRAST_INVERSE_ACTIVE",
       "value": "#eeeeee",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2916,6 +2935,7 @@
       "primitive": true,
       "name": "BRAND_HEADER_CONTRAST_COOL_ACTIVE",
       "value": "#005583",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2933,6 +2953,7 @@
       "primitive": true,
       "name": "COLOR_GRAY_9",
       "value": "#706e6b",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2951,6 +2972,7 @@
       "primitive": true,
       "name": "BRAND_CONTRAST",
       "value": "#1a1b1e",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2969,6 +2991,7 @@
       "primitive": true,
       "name": "BRAND_HEADER_CONTRAST_WEAK",
       "value": "#919191",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -2987,6 +3010,7 @@
       "primitive": true,
       "name": "BRAND_PRIMARY_ACTIVE",
       "value": "#007add",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -3005,6 +3029,7 @@
       "primitive": true,
       "name": "BRAND_BACKGROUND_PRIMARY_TRANSPARENT",
       "value": "rgba(250,250,249,0)",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -3023,6 +3048,7 @@
       "primitive": true,
       "name": "BRAND_HEADER_CONTRAST",
       "value": "#5e5e5e",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -3041,6 +3067,7 @@
       "primitive": true,
       "name": "BRAND_PRIMARY_TRANSPARENT",
       "value": "rgba(21,137,238,0.1)",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -3059,6 +3086,7 @@
       "primitive": true,
       "name": "BRAND_HEADER_CONTRAST_WARM_ACTIVE",
       "value": "#ac0000",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -3077,6 +3105,7 @@
       "primitive": true,
       "name": "BRAND_PRIMARY_TRANSPARENT_40",
       "value": "rgba(21,137,238,0.4)",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -3095,6 +3124,7 @@
       "primitive": true,
       "name": "BRAND_LIGHT",
       "value": "#f4f6fe",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -3112,6 +3142,7 @@
       "primitive": true,
       "name": "COLOR_GRAY_10",
       "value": "#514f4d",
+      "scope": "global",
       "cssProperties": [
         "background-color",
         "border*color",
@@ -3129,6 +3160,7 @@
       "primitive": true,
       "name": "SIZE_X_SMALL",
       "value": "12rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3148,8 +3180,11 @@
       "comment": "Generic sizing token scale for UI components."
     },
     "SIZE_XXX_SMALL": {
-      "type": "size",
-      "category": "sizing",
+      "originalValue": "{!SIZE_XXX_SMALL}",
+      "primitive": true,
+      "name": "SIZE_XXX_SMALL",
+      "value": "3rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3164,11 +3199,9 @@
         "padding*",
         "transform"
       ],
-      "primitive": true,
-      "value": "3rem",
-      "comment": "Generic sizing token scale for UI components.",
-      "originalValue": "{!SIZE_XXX_SMALL}",
-      "name": "SIZE_XXX_SMALL"
+      "type": "size",
+      "category": "sizing",
+      "comment": "Generic sizing token scale for UI components."
     },
     "SQUARE_ICON_UTILITY_LARGE": {
       "originalValue": "{!SIZE_SQUARE_X_LARGE}",
@@ -3176,6 +3209,7 @@
       "primitive": true,
       "name": "SQUARE_ICON_UTILITY_LARGE",
       "value": "1.5rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3200,6 +3234,7 @@
       "primitive": true,
       "name": "SIZE_XX_SMALL",
       "value": "6rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3224,6 +3259,7 @@
       "primitive": true,
       "name": "SQUARE_ICON_SMALL_BOUNDARY",
       "value": "1.5rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3248,6 +3284,7 @@
       "primitive": true,
       "name": "SIZE_SMALL",
       "value": "15rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3272,6 +3309,7 @@
       "primitive": true,
       "name": "SQUARE_ICON_UTILITY_MEDIUM",
       "value": "1.25rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3296,6 +3334,7 @@
       "primitive": true,
       "name": "SQUARE_ICON_X_SMALL_BOUNDARY",
       "value": "1.25rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3320,6 +3359,7 @@
       "primitive": true,
       "name": "SQUARE_ICON_UTILITY_SMALL",
       "value": "1rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3344,6 +3384,7 @@
       "primitive": true,
       "name": "SQUARE_ICON_MEDIUM_BOUNDARY",
       "value": "2rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3368,6 +3409,7 @@
       "primitive": true,
       "name": "SQUARE_ICON_LARGE_CONTENT",
       "value": "2rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3392,6 +3434,7 @@
       "primitive": true,
       "name": "SQUARE_ICON_LARGE_BOUNDARY",
       "value": "3rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3416,6 +3459,7 @@
       "primitive": true,
       "name": "SIZE_MEDIUM",
       "value": "20rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3440,6 +3484,7 @@
       "primitive": true,
       "name": "SQUARE_ICON_MEDIUM_CONTENT",
       "value": "1rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3464,6 +3509,7 @@
       "primitive": true,
       "name": "SIZE_X_LARGE",
       "value": "40rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3488,6 +3534,7 @@
       "primitive": true,
       "name": "SQUARE_ICON_X_SMALL_CONTENT",
       "value": "0.5rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3507,8 +3554,11 @@
       "comment": "Very small icons in icon buttons."
     },
     "VAR_SQUARE_ICON_MEDIUM_BOUNDARY": {
-      "type": "size",
-      "category": "sizing",
+      "originalValue": "{!SIZE_SQUARE_XX_LARGE}",
+      "primitive": true,
+      "name": "VAR_SQUARE_ICON_MEDIUM_BOUNDARY",
+      "value": "2rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3523,11 +3573,9 @@
         "padding*",
         "transform"
       ],
-      "primitive": true,
-      "value": "2rem",
-      "comment": "Variable medium boundary for square icons",
-      "originalValue": "{!SIZE_SQUARE_XX_LARGE}",
-      "name": "VAR_SQUARE_ICON_MEDIUM_BOUNDARY"
+      "type": "size",
+      "category": "sizing",
+      "comment": "Variable medium boundary for square icons"
     },
     "SQUARE_ICON_MEDIUM_BOUNDARY_ALT": {
       "originalValue": "{!SIZE_SQUARE_XXX_LARGE}",
@@ -3535,6 +3583,7 @@
       "primitive": true,
       "name": "SQUARE_ICON_MEDIUM_BOUNDARY_ALT",
       "value": "2.25rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3559,6 +3608,7 @@
       "primitive": true,
       "name": "SIZE_XX_LARGE",
       "value": "60rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3583,6 +3633,7 @@
       "primitive": true,
       "name": "SQUARE_ICON_LARGE_BOUNDARY_ALT",
       "value": "5rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3607,6 +3658,7 @@
       "primitive": true,
       "name": "SIZE_LARGE",
       "value": "25rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3631,6 +3683,7 @@
       "primitive": true,
       "name": "SQUARE_ICON_SMALL_CONTENT",
       "value": "0.75rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3650,8 +3703,11 @@
       "comment": "Search Results: Icon content (white shape)"
     },
     "SQUARE_ICON_XX_SMALL_BOUNDARY": {
-      "type": "size",
-      "category": "sizing",
+      "originalValue": "{!SIZE_SQUARE_MEDIUM}",
+      "primitive": true,
+      "name": "SQUARE_ICON_XX_SMALL_BOUNDARY",
+      "value": "1rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3666,15 +3722,16 @@
         "padding*",
         "transform"
       ],
-      "primitive": true,
-      "value": "1rem",
-      "comment": "Very very small icon button boundary.",
-      "originalValue": "{!SIZE_SQUARE_MEDIUM}",
-      "name": "SQUARE_ICON_XX_SMALL_BOUNDARY"
+      "type": "size",
+      "category": "sizing",
+      "comment": "Very very small icon button boundary."
     },
     "SQUARE_ICON_MEDIUM_CONTENT_ALT": {
-      "type": "size",
-      "category": "sizing",
+      "originalValue": "{!SIZE_SQUARE_SMALL}",
+      "primitive": true,
+      "name": "SQUARE_ICON_MEDIUM_CONTENT_ALT",
+      "value": "0.875rem",
+      "scope": "global",
       "cssProperties": [
         "font",
         "font-size",
@@ -3689,11 +3746,9 @@
         "padding*",
         "transform"
       ],
-      "primitive": true,
-      "value": "0.875rem",
-      "comment": "Alternate medium tap target size",
-      "originalValue": "{!SIZE_SQUARE_SMALL}",
-      "name": "SQUARE_ICON_MEDIUM_CONTENT_ALT"
+      "type": "size",
+      "category": "sizing",
+      "comment": "Alternate medium tap target size"
     },
     "VAR_SPACING_X_LARGE": {
       "originalValue": "{!SPACING_X_LARGE}",
@@ -3702,6 +3757,7 @@
       "primitive": true,
       "name": "VAR_SPACING_X_LARGE",
       "value": "2rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "right",
@@ -3727,6 +3783,7 @@
       "primitive": true,
       "name": "VAR_SPACING_HORIZONTAL_SMALL",
       "value": "0.75rem",
+      "scope": "global",
       "cssProperties": [
         "left",
         "right",
@@ -3746,6 +3803,7 @@
       "primitive": true,
       "name": "VAR_SPACING_HORIZONTAL_XX_LARGE",
       "value": "3rem",
+      "scope": "global",
       "cssProperties": [
         "left",
         "right",
@@ -3764,6 +3822,7 @@
       "primitive": true,
       "name": "SPACING_X_SMALL",
       "value": "0.5rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "right",
@@ -3788,6 +3847,7 @@
       "primitive": true,
       "name": "SPACING_XXX_SMALL",
       "value": "0.125rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "right",
@@ -3812,6 +3872,7 @@
       "primitive": true,
       "name": "SPACING_XX_SMALL",
       "value": "0.25rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "right",
@@ -3837,6 +3898,7 @@
       "primitive": true,
       "name": "VAR_SPACING_VERTICAL_LARGE",
       "value": "1.5rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "bottom",
@@ -3856,6 +3918,7 @@
       "primitive": true,
       "name": "VAR_SPACING_LARGE",
       "value": "1.5rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "right",
@@ -3881,6 +3944,7 @@
       "primitive": true,
       "name": "VAR_SPACING_MEDIUM",
       "value": "1rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "right",
@@ -3906,6 +3970,7 @@
       "primitive": true,
       "name": "VAR_SPACING_VERTICAL_MEDIUM",
       "value": "1rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "bottom",
@@ -3925,6 +3990,7 @@
       "primitive": true,
       "name": "VAR_SPACING_VERTICAL_X_SMALL",
       "value": "0.5rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "bottom",
@@ -3943,6 +4009,7 @@
       "primitive": true,
       "name": "SPACING_SMALL",
       "value": "0.75rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "right",
@@ -3968,6 +4035,7 @@
       "primitive": true,
       "name": "VAR_SPACING_VERTICAL_XXX_SMALL",
       "value": "0.125rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "bottom",
@@ -3987,6 +4055,7 @@
       "primitive": true,
       "name": "VAR_SPACING_X_SMALL",
       "value": "0.5rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "right",
@@ -4012,6 +4081,7 @@
       "primitive": true,
       "name": "VAR_SPACING_XXX_SMALL",
       "value": "0.125rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "right",
@@ -4037,6 +4107,7 @@
       "primitive": true,
       "name": "VAR_SPACING_HORIZONTAL_X_LARGE",
       "value": "2rem",
+      "scope": "global",
       "cssProperties": [
         "left",
         "right",
@@ -4056,6 +4127,7 @@
       "primitive": true,
       "name": "VAR_SPACING_HORIZONTAL_XX_SMALL",
       "value": "0.25rem",
+      "scope": "global",
       "cssProperties": [
         "left",
         "right",
@@ -4075,6 +4147,7 @@
       "primitive": true,
       "name": "VAR_SPACING_XX_LARGE",
       "value": "3rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "right",
@@ -4099,6 +4172,7 @@
       "primitive": true,
       "name": "SPACING_MEDIUM",
       "value": "1rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "right",
@@ -4124,6 +4198,7 @@
       "primitive": true,
       "name": "VAR_SPACING_VERTICAL_XX_LARGE",
       "value": "3rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "bottom",
@@ -4143,6 +4218,7 @@
       "primitive": true,
       "name": "VAR_SPACING_VERTICAL_SMALL",
       "value": "0.75rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "bottom",
@@ -4162,6 +4238,7 @@
       "primitive": true,
       "name": "VAR_SPACING_SMALL",
       "value": "0.75rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "right",
@@ -4181,9 +4258,11 @@
       "comment": "Variable spacing token for size Small"
     },
     "SPACING_NONE": {
-      "category": "spacing",
-      "type": "size",
-      "comment": "Constant spacing token for 0",
+      "originalValue": "{!SPACING_NONE}",
+      "primitive": true,
+      "name": "SPACING_NONE",
+      "value": "0",
+      "scope": "global",
       "cssProperties": [
         "top",
         "right",
@@ -4198,10 +4277,9 @@
         "stroke",
         "stroke-width"
       ],
-      "primitive": true,
-      "value": "0",
-      "originalValue": "{!SPACING_NONE}",
-      "name": "SPACING_NONE"
+      "type": "size",
+      "category": "spacing",
+      "comment": "Constant spacing token for 0"
     },
     "VAR_SPACING_HORIZONTAL_LARGE": {
       "originalValue": "{!SPACING_LARGE}",
@@ -4210,6 +4288,7 @@
       "primitive": true,
       "name": "VAR_SPACING_HORIZONTAL_LARGE",
       "value": "1.5rem",
+      "scope": "global",
       "cssProperties": [
         "left",
         "right",
@@ -4228,6 +4307,7 @@
       "primitive": true,
       "name": "SPACING_X_LARGE",
       "value": "2rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "right",
@@ -4252,6 +4332,7 @@
       "primitive": true,
       "name": "SPACING_XX_LARGE",
       "value": "3rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "right",
@@ -4277,6 +4358,7 @@
       "primitive": true,
       "name": "VAR_SPACING_HORIZONTAL_XXX_SMALL",
       "value": "0.125rem",
+      "scope": "global",
       "cssProperties": [
         "left",
         "right",
@@ -4296,6 +4378,7 @@
       "primitive": true,
       "name": "VAR_SPACING_HORIZONTAL_X_SMALL",
       "value": "0.5rem",
+      "scope": "global",
       "cssProperties": [
         "left",
         "right",
@@ -4315,6 +4398,7 @@
       "primitive": true,
       "name": "VAR_SPACING_XX_SMALL",
       "value": "0.25rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "right",
@@ -4340,6 +4424,7 @@
       "primitive": true,
       "name": "VAR_SPACING_HORIZONTAL_MEDIUM",
       "value": "1rem",
+      "scope": "global",
       "cssProperties": [
         "left",
         "right",
@@ -4359,6 +4444,7 @@
       "primitive": true,
       "name": "VAR_SPACING_VERTICAL_XX_SMALL",
       "value": "0.25rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "bottom",
@@ -4378,6 +4464,7 @@
       "primitive": true,
       "name": "VAR_SPACING_VERTICAL_X_LARGE",
       "value": "2rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "bottom",
@@ -4396,6 +4483,7 @@
       "primitive": true,
       "name": "SPACING_LARGE",
       "value": "1.5rem",
+      "scope": "global",
       "cssProperties": [
         "top",
         "right",
@@ -4420,6 +4508,7 @@
       "primitive": true,
       "name": "COLOR_TEXT_ACTION_LABEL",
       "value": "#6B6D70",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
@@ -4434,6 +4523,7 @@
       "primitive": true,
       "name": "COLOR_TEXT_LINK_INVERSE",
       "value": "#FFFFFF",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
@@ -4448,6 +4538,7 @@
       "primitive": true,
       "name": "COLOR_TEXT_LINK_INVERSE_ACTIVE",
       "value": "rgba(255, 255, 255, 0.50)",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
@@ -4462,6 +4553,7 @@
       "primitive": true,
       "name": "COLOR_TEXT_ACTION_LABEL_ACTIVE",
       "value": "#16325C",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
@@ -4471,17 +4563,18 @@
       "comment": "Action label active text color"
     },
     "COLOR_TEXT_WARNING": {
-      "type": "color",
-      "category": "text-color",
+      "originalValue": "{!KOROMIKO}",
+      "primitive": true,
+      "name": "COLOR_TEXT_WARNING",
+      "value": "#FFB75D",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
       ],
-      "primitive": true,
-      "value": "#FFB75D",
-      "comment": "Color for texts or icons that are related to warnings on a dark background.",
-      "originalValue": "{!KOROMIKO}",
-      "name": "COLOR_TEXT_WARNING"
+      "type": "color",
+      "category": "text-color",
+      "comment": "Color for texts or icons that are related to warnings on a dark background."
     },
     "COLOR_TEXT_LINK_FOCUS": {
       "originalValue": "{!ENDEAVOUR}",
@@ -4489,6 +4582,7 @@
       "primitive": true,
       "name": "COLOR_TEXT_LINK_FOCUS",
       "value": "#005FB2",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
@@ -4498,17 +4592,18 @@
       "comment": "Focus link text"
     },
     "COLOR_TEXT_DESTRUCTIVE_HOVER": {
-      "type": "color",
-      "category": "text-color",
+      "originalValue": "{!MEXICAN_RED}",
+      "primitive": true,
+      "name": "COLOR_TEXT_DESTRUCTIVE_HOVER",
+      "value": "#A12B2B",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
       ],
-      "primitive": true,
-      "value": "#A12B2B",
-      "comment": "Text color for destructive actions - hover state",
-      "originalValue": "{!MEXICAN_RED}",
-      "name": "COLOR_TEXT_DESTRUCTIVE_HOVER"
+      "type": "color",
+      "category": "text-color",
+      "comment": "Text color for destructive actions - hover state"
     },
     "COLOR_TEXT_LINK_DISABLED": {
       "originalValue": "{!BISCAY}",
@@ -4516,6 +4611,7 @@
       "primitive": true,
       "name": "COLOR_TEXT_LINK_DISABLED",
       "value": "#16325C",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
@@ -4530,6 +4626,7 @@
       "primitive": true,
       "name": "COLOR_TEXT_DEFAULT",
       "value": "#16325C",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
@@ -4539,17 +4636,18 @@
       "comment": "Body text color"
     },
     "COLOR_TEXT_DESTRUCTIVE": {
-      "type": "color",
-      "category": "text-color",
+      "originalValue": "{!FLUSH_MAHOGANY}",
+      "primitive": true,
+      "name": "COLOR_TEXT_DESTRUCTIVE",
+      "value": "#C23934",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
       ],
-      "primitive": true,
-      "value": "#C23934",
-      "comment": "Text color for destructive actions",
-      "originalValue": "{!FLUSH_MAHOGANY}",
-      "name": "COLOR_TEXT_DESTRUCTIVE"
+      "type": "color",
+      "category": "text-color",
+      "comment": "Text color for destructive actions"
     },
     "COLOR_TEXT_LINK_HOVER": {
       "originalValue": "{!ENDEAVOUR}",
@@ -4557,6 +4655,7 @@
       "primitive": true,
       "name": "COLOR_TEXT_LINK_HOVER",
       "value": "#005FB2",
+      "scope": "global",
       "cssProperties": [
         "color",
         "border*"
@@ -4566,17 +4665,18 @@
       "comment": "Hover link text"
     },
     "COLOR_TEXT_SUCCESS": {
-      "type": "color",
-      "category": "text-color",
+      "originalValue": "{!FOREST_GREEN}",
+      "primitive": true,
+      "name": "COLOR_TEXT_SUCCESS",
+      "value": "#027E46",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
       ],
-      "primitive": true,
-      "value": "#027E46",
-      "comment": "Text color for success text.",
-      "originalValue": "{!FOREST_GREEN}",
-      "name": "COLOR_TEXT_SUCCESS"
+      "type": "color",
+      "category": "text-color",
+      "comment": "Text color for success text."
     },
     "COLOR_TEXT_WEAK": {
       "originalValue": "{!PALETTE_COOL_GRAY_9}",
@@ -4584,6 +4684,7 @@
       "primitive": true,
       "name": "COLOR_TEXT_WEAK",
       "value": "#6B6D70",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
@@ -4598,6 +4699,7 @@
       "primitive": true,
       "name": "COLOR_TEXT_PLACEHOLDER_INVERSE",
       "value": "#E9EAEC",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
@@ -4612,6 +4714,7 @@
       "primitive": true,
       "name": "COLOR_TEXT_LINK",
       "value": "#0070D2",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
@@ -4621,17 +4724,18 @@
       "comment": "Link text (508)"
     },
     "COLOR_TEXT_WARNING_ALT": {
-      "type": "color",
-      "category": "text-color",
+      "originalValue": "{!CINNAMON}",
+      "primitive": true,
+      "name": "COLOR_TEXT_WARNING_ALT",
+      "value": "#844800",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
       ],
-      "primitive": true,
-      "value": "#844800",
-      "comment": "Color for texts that are related to warnings on a light background.",
-      "originalValue": "{!CINNAMON}",
-      "name": "COLOR_TEXT_WARNING_ALT"
+      "type": "color",
+      "category": "text-color",
+      "comment": "Color for texts that are related to warnings on a light background."
     },
     "COLOR_TEXT_ICON_DEFAULT": {
       "originalValue": "{!PALETTE_COOL_GRAY_9}",
@@ -4639,6 +4743,7 @@
       "primitive": true,
       "name": "COLOR_TEXT_ICON_DEFAULT",
       "value": "#6B6D70",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
@@ -4653,6 +4758,7 @@
       "primitive": true,
       "name": "COLOR_TEXT_BRAND",
       "value": "#1589EE",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
@@ -4667,6 +4773,7 @@
       "primitive": true,
       "name": "COLOR_TEXT_ERROR",
       "value": "#C23934",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
@@ -4676,30 +4783,32 @@
       "comment": "Error text for inputs and error misc"
     },
     "COLOR_TEXT_CUSTOMER": {
-      "type": "color",
-      "category": "text-color",
+      "originalValue": "{!TANGERINE}",
+      "primitive": true,
+      "name": "COLOR_TEXT_CUSTOMER",
+      "value": "#FF9A3C",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
       ],
-      "primitive": true,
-      "value": "#FF9A3C",
-      "comment": "Customer text used in anchor subtitle",
-      "originalValue": "{!TANGERINE}",
-      "name": "COLOR_TEXT_CUSTOMER"
+      "type": "color",
+      "category": "text-color",
+      "comment": "Customer text used in anchor subtitle"
     },
     "COLOR_TEXT_BRAND_PRIMARY": {
-      "type": "color",
-      "category": "text-color",
+      "originalValue": "{!WHITE}",
+      "primitive": true,
+      "name": "COLOR_TEXT_BRAND_PRIMARY",
+      "value": "#FFFFFF",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
       ],
-      "primitive": true,
-      "value": "#FFFFFF",
-      "comment": "Text color found on any primary brand color",
-      "originalValue": "{!WHITE}",
-      "name": "COLOR_TEXT_BRAND_PRIMARY"
+      "type": "color",
+      "category": "text-color",
+      "comment": "Text color found on any primary brand color"
     },
     "COLOR_TEXT_LINK_ACTIVE": {
       "originalValue": "{!MIDNIGHT_BLUE}",
@@ -4707,6 +4816,7 @@
       "primitive": true,
       "name": "COLOR_TEXT_LINK_ACTIVE",
       "value": "#00396B",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
@@ -4721,6 +4831,7 @@
       "primitive": true,
       "name": "COLOR_TEXT_REQUIRED",
       "value": "#C23934",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
@@ -4735,6 +4846,7 @@
       "primitive": true,
       "name": "COLOR_TEXT_LINK_INVERSE_DISABLED",
       "value": "rgba(255, 255, 255, 0.15)",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
@@ -4749,6 +4861,7 @@
       "primitive": true,
       "name": "COLOR_TEXT_INVERSE",
       "value": "#FFFFFF",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
@@ -4763,6 +4876,7 @@
       "primitive": true,
       "name": "COLOR_TEXT_PLACEHOLDER",
       "value": "#6B6D70",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
@@ -4777,6 +4891,7 @@
       "primitive": true,
       "name": "COLOR_TEXT_INVERSE_WEAK",
       "value": "#ABADB0",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
@@ -4791,6 +4906,7 @@
       "primitive": true,
       "name": "COLOR_TEXT_LINK_INVERSE_HOVER",
       "value": "rgba(255, 255, 255, 0.75)",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
@@ -4800,17 +4916,18 @@
       "comment": "Link color on dark background - hover state"
     },
     "COLOR_TEXT_SUCCESS_INVERSE": {
-      "type": "color",
-      "category": "text-color",
+      "originalValue": "{!EMERALD}",
+      "primitive": true,
+      "name": "COLOR_TEXT_SUCCESS_INVERSE",
+      "value": "#4BCA81",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
       ],
-      "primitive": true,
-      "value": "#4BCA81",
-      "comment": "Text color for success text on dark backgrounds.",
-      "originalValue": "{!EMERALD}",
-      "name": "COLOR_TEXT_SUCCESS_INVERSE"
+      "type": "color",
+      "category": "text-color",
+      "comment": "Text color for success text on dark backgrounds."
     },
     "COLOR_TEXT_LABEL": {
       "originalValue": "{!PALETTE_COOL_GRAY_9}",
@@ -4818,6 +4935,7 @@
       "primitive": true,
       "name": "COLOR_TEXT_LABEL",
       "value": "#6B6D70",
+      "scope": "global",
       "cssProperties": [
         "color",
         "fill"
@@ -4826,149 +4944,297 @@
       "category": "text-color",
       "comment": "Text color for field labels."
     },
+    "SQUARE_TAPPABLE": {
+      "originalValue": "2.75rem",
+      "access": "global",
+      "primitive": true,
+      "name": "SQUARE_TAPPABLE",
+      "value": "2.75rem",
+      "scope": "global",
+      "property": "sizing",
+      "cssProperties": [
+        "font",
+        "font-size",
+        "*width",
+        "*height",
+        "flex",
+        "top",
+        "right",
+        "bottom",
+        "left",
+        "margin*",
+        "padding*",
+        "transform"
+      ],
+      "type": "size",
+      "category": "touch",
+      "comment": "Tap target size for elements that rely on width and height dimensions"
+    },
+    "SQUARE_TAPPABLE_SMALL": {
+      "originalValue": "2rem",
+      "primitive": true,
+      "name": "SQUARE_TAPPABLE_SMALL",
+      "value": "2rem",
+      "scope": "global",
+      "property": "sizing",
+      "cssProperties": [
+        "*width",
+        "*height",
+        "top",
+        "right",
+        "bottom",
+        "left",
+        "margin*",
+        "padding*",
+        "transform"
+      ],
+      "type": "size",
+      "category": "touch",
+      "comment": "Small tap target size for elements that rely on width and height dimensions"
+    },
+    "SQUARE_TAPPABLE_X_SMALL": {
+      "originalValue": "1.5rem",
+      "primitive": true,
+      "name": "SQUARE_TAPPABLE_X_SMALL",
+      "value": "1.5rem",
+      "scope": "global",
+      "property": "sizing",
+      "cssProperties": [
+        "*width",
+        "*height",
+        "top",
+        "right",
+        "bottom",
+        "left",
+        "margin*",
+        "padding*",
+        "transform"
+      ],
+      "type": "size",
+      "category": "touch",
+      "comment": "X-small tap target size for elements that rely on width and height dimensions"
+    },
+    "SQUARE_TAPPABLE_XX_SMALL": {
+      "originalValue": "1.25rem",
+      "primitive": true,
+      "name": "SQUARE_TAPPABLE_XX_SMALL",
+      "value": "1.25rem",
+      "scope": "global",
+      "property": "sizing",
+      "cssProperties": [
+        "*width",
+        "*height",
+        "top",
+        "right",
+        "bottom",
+        "left",
+        "margin*",
+        "padding*",
+        "transform"
+      ],
+      "type": "size",
+      "category": "touch",
+      "comment": "Xx-small tap target size for elements that rely on width and height dimensions"
+    },
+    "HEIGHT_TAPPABLE": {
+      "originalValue": "2.75rem",
+      "primitive": true,
+      "name": "HEIGHT_TAPPABLE",
+      "value": "2.75rem",
+      "scope": "global",
+      "property": "sizing",
+      "cssProperties": [
+        "*width",
+        "*height",
+        "top",
+        "right",
+        "bottom",
+        "left",
+        "margin*",
+        "padding*",
+        "transform"
+      ],
+      "type": "size",
+      "category": "touch",
+      "comment": "Tap target size for elements that rely on height or line-height"
+    },
+    "HEIGHT_TAPPABLE_SMALL": {
+      "originalValue": "2rem",
+      "primitive": true,
+      "name": "HEIGHT_TAPPABLE_SMALL",
+      "value": "2rem",
+      "scope": "global",
+      "property": "sizing",
+      "cssProperties": [
+        "*width",
+        "*height",
+        "top",
+        "right",
+        "bottom",
+        "left",
+        "margin*",
+        "padding*",
+        "transform"
+      ],
+      "type": "size",
+      "category": "touch",
+      "comment": "Small tap target size for elements that rely on height or line-height"
+    },
     "Z_INDEX_DROPDOWN": {
-      "type": "z-index",
-      "category": "z-index",
+      "originalValue": "7000",
+      "primitive": true,
+      "name": "Z_INDEX_DROPDOWN",
+      "value": "7000",
+      "scope": "global",
       "cssProperties": [
         "z-index"
       ],
-      "primitive": true,
-      "value": "7000",
-      "comment": "Dropdown",
-      "originalValue": "7000",
-      "name": "Z_INDEX_DROPDOWN"
+      "type": "z-index",
+      "category": "z-index",
+      "comment": "Dropdown"
     },
     "Z_INDEX_DOCKED": {
-      "type": "z-index",
-      "category": "z-index",
+      "originalValue": "4",
+      "primitive": true,
+      "name": "Z_INDEX_DOCKED",
+      "value": "4",
+      "scope": "global",
       "cssProperties": [
         "z-index"
       ],
-      "primitive": true,
-      "value": "4",
-      "comment": "Docked element",
-      "originalValue": "4",
-      "name": "Z_INDEX_DOCKED"
+      "type": "z-index",
+      "category": "z-index",
+      "comment": "Docked element"
     },
     "Z_INDEX_REMINDER": {
-      "type": "z-index",
-      "category": "z-index",
+      "originalValue": "8500",
+      "primitive": true,
+      "name": "Z_INDEX_REMINDER",
+      "value": "8500",
+      "scope": "global",
       "cssProperties": [
         "z-index"
       ],
-      "primitive": true,
-      "value": "8500",
-      "comment": "Notifications under modals",
-      "originalValue": "8500",
-      "name": "Z_INDEX_REMINDER"
+      "type": "z-index",
+      "category": "z-index",
+      "comment": "Notifications under modals"
     },
     "Z_INDEX_SPINNER": {
-      "type": "z-index",
-      "category": "z-index",
+      "originalValue": "9050",
+      "primitive": true,
+      "name": "Z_INDEX_SPINNER",
+      "value": "9050",
+      "scope": "global",
       "cssProperties": [
         "z-index"
       ],
-      "primitive": true,
-      "value": "9050",
-      "comment": "Spinner",
-      "originalValue": "9050",
-      "name": "Z_INDEX_SPINNER"
+      "type": "z-index",
+      "category": "z-index",
+      "comment": "Spinner"
     },
     "Z_INDEX_DEFAULT": {
-      "type": "z-index",
-      "category": "z-index",
+      "originalValue": "1",
+      "primitive": true,
+      "name": "Z_INDEX_DEFAULT",
+      "value": "1",
+      "scope": "global",
       "cssProperties": [
         "z-index"
       ],
-      "primitive": true,
-      "value": "1",
-      "comment": "Default",
-      "originalValue": "1",
-      "name": "Z_INDEX_DEFAULT"
+      "type": "z-index",
+      "category": "z-index",
+      "comment": "Default"
     },
     "Z_INDEX_DEEPDIVE": {
-      "type": "z-index",
-      "category": "z-index",
+      "originalValue": "-99999",
+      "primitive": true,
+      "name": "Z_INDEX_DEEPDIVE",
+      "value": "-99999",
+      "scope": "global",
       "cssProperties": [
         "z-index"
       ],
-      "primitive": true,
-      "value": "-99999",
-      "comment": "Deep dive",
-      "originalValue": "-99999",
-      "name": "Z_INDEX_DEEPDIVE"
+      "type": "z-index",
+      "category": "z-index",
+      "comment": "Deep dive"
     },
     "Z_INDEX_TOAST": {
-      "type": "z-index",
-      "category": "z-index",
+      "originalValue": "10000",
+      "primitive": true,
+      "name": "Z_INDEX_TOAST",
+      "value": "10000",
+      "scope": "global",
       "cssProperties": [
         "z-index"
       ],
-      "primitive": true,
-      "value": "10000",
-      "comment": "Toasts",
-      "originalValue": "10000",
-      "name": "Z_INDEX_TOAST"
+      "type": "z-index",
+      "category": "z-index",
+      "comment": "Toasts"
     },
     "Z_INDEX_DIALOG": {
-      "type": "z-index",
-      "category": "z-index",
+      "originalValue": "6000",
+      "primitive": true,
+      "name": "Z_INDEX_DIALOG",
+      "value": "6000",
+      "scope": "global",
       "cssProperties": [
         "z-index"
       ],
-      "primitive": true,
-      "value": "6000",
-      "comment": "Dialog",
-      "originalValue": "6000",
-      "name": "Z_INDEX_DIALOG"
+      "type": "z-index",
+      "category": "z-index",
+      "comment": "Dialog"
     },
     "Z_INDEX_POPUP": {
-      "type": "z-index",
-      "category": "z-index",
+      "originalValue": "5000",
+      "primitive": true,
+      "name": "Z_INDEX_POPUP",
+      "value": "5000",
+      "scope": "global",
       "cssProperties": [
         "z-index"
       ],
-      "primitive": true,
-      "value": "5000",
-      "comment": "Popup",
-      "originalValue": "5000",
-      "name": "Z_INDEX_POPUP"
+      "type": "z-index",
+      "category": "z-index",
+      "comment": "Popup"
     },
     "Z_INDEX_MODAL": {
-      "type": "z-index",
-      "category": "z-index",
+      "originalValue": "9000",
+      "primitive": true,
+      "name": "Z_INDEX_MODAL",
+      "value": "9000",
+      "scope": "global",
       "cssProperties": [
         "z-index"
       ],
-      "primitive": true,
-      "value": "9000",
-      "comment": "Modal",
-      "originalValue": "9000",
-      "name": "Z_INDEX_MODAL"
+      "type": "z-index",
+      "category": "z-index",
+      "comment": "Modal"
     },
     "Z_INDEX_STICKY": {
-      "type": "z-index",
-      "category": "z-index",
+      "originalValue": "100",
+      "primitive": true,
+      "name": "Z_INDEX_STICKY",
+      "value": "100",
+      "scope": "global",
       "cssProperties": [
         "z-index"
       ],
-      "primitive": true,
-      "value": "100",
-      "comment": "Stickied element",
-      "originalValue": "100",
-      "name": "Z_INDEX_STICKY"
+      "type": "z-index",
+      "category": "z-index",
+      "comment": "Stickied element"
     },
     "Z_INDEX_OVERLAY": {
-      "type": "z-index",
-      "category": "z-index",
+      "originalValue": "8000",
+      "primitive": true,
+      "name": "Z_INDEX_OVERLAY",
+      "value": "8000",
+      "scope": "global",
       "cssProperties": [
         "z-index"
       ],
-      "primitive": true,
-      "value": "8000",
-      "comment": "Overlay",
-      "originalValue": "8000",
-      "name": "Z_INDEX_OVERLAY"
+      "type": "z-index",
+      "category": "z-index",
+      "comment": "Overlay"
     }
   }
 }

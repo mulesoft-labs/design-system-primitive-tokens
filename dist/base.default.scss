@@ -119,19 +119,14 @@ $border-radius-small: 0.125rem !default;
 /* Icons in lists, record home icon, unbound input elements */
 $border-radius-medium: 0.25rem !default;
 $border-radius-large: 0.5rem !default;
-$border-radius-pill: 15rem !default;
 /* Circle for global use, action icon bgd shape */
 $border-radius-circle: 50% !default;
 $border-width-thin: 1px !default;
 $border-width-thick: 2px !default;
-$border-stroke-width-thin: 1px !default;
-$border-stroke-width-thick: 2px !default;
 /* Shadow for drag-n-drop. */
 $shadow-drag: 0 2px 4px 0 rgba(0, 0, 0, 0.40) !default;
 /* Shadow for drop down. */
 $shadow-drop-down: 0 2px 3px 0 rgba(0, 0, 0, 0.16) !default;
-/* Shadow for header. */
-$shadow-header: 0 2px 4px rgba(0, 0, 0, 0.07) !default;
 /* 0 seconds, 0 frames */
 $duration-instantly: 0s !default;
 /* 0.05 seconds, 3 frames */
@@ -204,8 +199,6 @@ $line-height-heading: 1.25 !default;
 $line-height-text: 1.5 !default;
 /* Remove extra leading. Unitless line-heights for reusability */
 $line-height-reset: 1 !default;
-/* Line heights for tabs */
-$line-height-tab: 2.5rem !default;
 /* Variable unitless line-heights for reusability */
 $var-line-height-text: 1.5 !default;
 /* 50% transparency of an element */
@@ -482,6 +475,18 @@ $color-text-link-inverse-hover: rgba(255, 255, 255, 0.75) !default;
 $color-text-success-inverse: rgb(75, 202, 129) !default;
 /* Text color for field labels. */
 $color-text-label: rgb(107, 109, 112) !default;
+/* Tap target size for elements that rely on width and height dimensions */
+$square-tappable: 2.75rem !default;
+/* Small tap target size for elements that rely on width and height dimensions */
+$square-tappable-small: 2rem !default;
+/* X-small tap target size for elements that rely on width and height dimensions */
+$square-tappable-x-small: 1.5rem !default;
+/* Xx-small tap target size for elements that rely on width and height dimensions */
+$square-tappable-xx-small: 1.25rem !default;
+/* Tap target size for elements that rely on height or line-height */
+$height-tappable: 2.75rem !default;
+/* Small tap target size for elements that rely on height or line-height */
+$height-tappable-small: 2rem !default;
 /* Dropdown */
 $z-index-dropdown: 7000 !default;
 /* Docked element */

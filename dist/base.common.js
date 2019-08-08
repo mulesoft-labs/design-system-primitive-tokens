@@ -119,19 +119,14 @@ module.exports = {
   /* Icons in lists, record home icon, unbound input elements */
   borderRadiusMedium: "0.25rem",
   borderRadiusLarge: "0.5rem",
-  borderRadiusPill: "15rem",
   /* Circle for global use, action icon bgd shape */
   borderRadiusCircle: "50%",
   borderWidthThin: "1px",
   borderWidthThick: "2px",
-  borderStrokeWidthThin: "1px",
-  borderStrokeWidthThick: "2px",
   /* Shadow for drag-n-drop. */
   shadowDrag: "0 2px 4px 0 rgba(0, 0, 0, 0.40)",
   /* Shadow for drop down. */
   shadowDropDown: "0 2px 3px 0 rgba(0, 0, 0, 0.16)",
-  /* Shadow for header. */
-  shadowHeader: "0 2px 4px rgba(0, 0, 0, 0.07)",
   /* 0 seconds, 0 frames */
   durationInstantly: "0s",
   /* 0.05 seconds, 3 frames */
@@ -204,8 +199,6 @@ module.exports = {
   lineHeightText: "1.5",
   /* Remove extra leading. Unitless line-heights for reusability */
   lineHeightReset: "1",
-  /* Line heights for tabs */
-  lineHeightTab: "2.5rem",
   /* Variable unitless line-heights for reusability */
   varLineHeightText: "1.5",
   /* 50% transparency of an element */
@@ -482,6 +475,18 @@ module.exports = {
   colorTextSuccessInverse: "rgb(75, 202, 129)",
   /* Text color for field labels. */
   colorTextLabel: "rgb(107, 109, 112)",
+  /* Tap target size for elements that rely on width and height dimensions */
+  squareTappable: "2.75rem",
+  /* Small tap target size for elements that rely on width and height dimensions */
+  squareTappableSmall: "2rem",
+  /* X-small tap target size for elements that rely on width and height dimensions */
+  squareTappableXSmall: "1.5rem",
+  /* Xx-small tap target size for elements that rely on width and height dimensions */
+  squareTappableXxSmall: "1.25rem",
+  /* Tap target size for elements that rely on height or line-height */
+  heightTappable: "2.75rem",
+  /* Small tap target size for elements that rely on height or line-height */
+  heightTappableSmall: "2rem",
   /* Dropdown */
   zIndexDropdown: "7000",
   /* Docked element */

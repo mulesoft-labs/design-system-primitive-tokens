@@ -60,15 +60,11 @@
   <aura:token name="borderRadiusSmall" property="border*radius" value="0.125rem"/>
   <aura:token name="borderRadiusMedium" property="border*radius" value="0.25rem"/>
   <aura:token name="borderRadiusLarge" property="border*radius" value="0.5rem"/>
-  <aura:token name="borderRadiusPill" property="border*radius" value="15rem"/>
   <aura:token name="borderRadiusCircle" property="border*radius" value="50%"/>
-  <aura:token name="borderWidthThin" property="border*,*width,*height,box-shadow,stroke,stroke-width" value="1px"/>
-  <aura:token name="borderWidthThick" property="border*,*width,*height,box-shadow,stroke,stroke-width" value="2px"/>
-  <aura:token name="borderStrokeWidthThin" property="border*,*width,*height,box-shadow,stroke,stroke-width" value="1px"/>
-  <aura:token name="borderStrokeWidthThick" property="border*,*width,*height,box-shadow,stroke,stroke-width" value="2px"/>
+  <aura:token name="borderWidthThin" property="top,right,bottom,left,margin*,padding*,border*,*width,*height,box-shadow,stroke,stroke-width" value="1px"/>
+  <aura:token name="borderWidthThick" property="top,right,bottom,left,margin*,padding*,border*,*width,*height,box-shadow,stroke,stroke-width" value="2px"/>
   <aura:token name="shadowDrag" property="box-shadow" value="0 2px 4px 0 rgba(0, 0, 0, 0.40)"/>
   <aura:token name="shadowDropDown" property="box-shadow" value="0 2px 3px 0 rgba(0, 0, 0, 0.16)"/>
-  <aura:token name="shadowHeader" property="box-shadow" value="0 2px 4px rgba(0, 0, 0, 0.07)"/>
   <aura:token name="durationInstantly" property="animation*,transition*" value="0s"/>
   <aura:token name="durationImmediately" property="animation*,transition*" value="0.05s"/>
   <aura:token name="durationQuickly" property="animation*,transition*" value="0.1s"/>
@@ -106,7 +102,6 @@
   <aura:token name="lineHeightHeading" property="font,*height" value="1.25"/>
   <aura:token name="lineHeightText" property="font,*height" value="1.5"/>
   <aura:token name="lineHeightReset" property="font,*height" value="1"/>
-  <aura:token name="lineHeightTab" property="font,*height" value="2.5rem"/>
   <aura:token name="varLineHeightText" property="font,*height" value="1.5"/>
   <aura:token name="opacity5" property="opacity" value="0.5"/>
   <aura:token name="opacity8" property="opacity" value="0.8"/>
@@ -245,6 +240,12 @@
   <aura:token name="colorTextLinkInverseHover" property="color,fill" value="rgba(255, 255, 255, 0.75)"/>
   <aura:token name="colorTextSuccessInverse" property="color,fill" value="rgb(75, 202, 129)"/>
   <aura:token name="colorTextLabel" property="color,fill" value="rgb(107, 109, 112)"/>
+  <aura:token name="squareTappable" property="font,font-size,*width,*height,flex,top,right,bottom,left,margin*,padding*,transform" value="2.75rem"/>
+  <aura:token name="squareTappableSmall" property="*width,*height,top,right,bottom,left,margin*,padding*,transform" value="2rem"/>
+  <aura:token name="squareTappableXSmall" property="*width,*height,top,right,bottom,left,margin*,padding*,transform" value="1.5rem"/>
+  <aura:token name="squareTappableXxSmall" property="*width,*height,top,right,bottom,left,margin*,padding*,transform" value="1.25rem"/>
+  <aura:token name="heightTappable" property="*width,*height,top,right,bottom,left,margin*,padding*,transform" value="2.75rem"/>
+  <aura:token name="heightTappableSmall" property="*width,*height,top,right,bottom,left,margin*,padding*,transform" value="2rem"/>
   <aura:token name="zIndexDropdown" property="z-index" value="7000"/>
   <aura:token name="zIndexDocked" property="z-index" value="4"/>
   <aura:token name="zIndexReminder" property="z-index" value="8500"/>
