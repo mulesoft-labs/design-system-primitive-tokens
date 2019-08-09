@@ -1,6 +1,6 @@
 {
   "name": "@salesforce-ux/design-system-primitive-tokens",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Primitive tokens are an abstraction of Salesforce's UI into name and value design properties",
   "author": "Salesforce",
   "license": "SEE LICENSE IN README.md",
