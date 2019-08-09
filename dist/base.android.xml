@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-  <color name="COLOR_BACKGROUND_ROW_ACTIVE" category="background-color">#fff2f2f3</color>
+  <color name="COLOR_BACKGROUND_ROW_ACTIVE" category="background-color">#ffecebea</color>
   <color name="COLOR_BACKGROUND_LIGHT" category="background-color">#ffffffff</color>
-  <color name="COLOR_BACKGROUND_ROW_HOVER" category="background-color">#fff9f9fa</color>
+  <color name="COLOR_BACKGROUND_ROW_HOVER" category="background-color">#fff3f2f2</color>
   <color name="COLOR_BACKGROUND_ERROR_DARK" category="background-color">#ffc23934</color>
-  <color name="COLOR_BACKGROUND_INFO" category="background-color">#ff6b6d70</color>
+  <color name="COLOR_BACKGROUND_INFO" category="background-color">#ff706e6b</color>
   <color name="COLOR_BACKGROUND_ALT_INVERSE" category="background-color">#ff16325c</color>
   <color name="COLOR_BACKGROUND_ROW_NEW" category="background-color">#ffd9ffdf</color>
   <color name="COLOR_BACKGROUND_SUCCESS_DARK" category="background-color">#ff04844b</color>
-  <color name="COLOR_BACKGROUND_STENCIL" category="background-color">#fff2f2f3</color>
+  <color name="COLOR_BACKGROUND_STENCIL" category="background-color">#fff3f2f2</color>
   <color name="COLOR_BACKGROUND_WARNING" category="background-color">#ffffb75d</color>
   <color name="COLOR_BACKGROUND_HIGHLIGHT_SEARCH" category="background-color">#fffff03f</color>
   <color name="COLOR_BACKGROUND_DESTRUCTIVE_HOVER" category="background-color">#ffa61a14</color>
-  <color name="COLOR_BACKGROUND" category="background-color">#fff9f9fa</color>
+  <color name="COLOR_BACKGROUND" category="background-color">#fff3f2f2</color>
   <color name="COLOR_BRAND_DARK" category="background-color">#ff0070d2</color>
   <color name="COLOR_BACKGROUND_BACKDROP" category="background-color">#bfffffff</color>
-  <color name="COLOR_BACKGROUND_DARK" category="background-color">#ffe9eaec</color>
+  <color name="COLOR_BACKGROUND_DARK" category="background-color">#ffecebea</color>
   <color name="COLOR_BRAND" category="background-color">#ff1589ee</color>
   <color name="COLOR_BACKGROUND_DESTRUCTIVE" category="background-color">#ffc23934</color>
   <color name="COLOR_BACKGROUND_SUCCESS" category="background-color">#ff4bca81</color>
   <color name="COLOR_BACKGROUND_WARNING_DARK" category="background-color">#ffff9e2c</color>
-  <color name="COLOR_BACKGROUND_OFFLINE" category="background-color">#ff3e4041</color>
-  <color name="COLOR_BACKGROUND_STENCIL_ALT" category="background-color">#ffe9eaec</color>
+  <color name="COLOR_BACKGROUND_OFFLINE" category="background-color">#ff3e3e3c</color>
+  <color name="COLOR_BACKGROUND_STENCIL_ALT" category="background-color">#ffecebea</color>
   <color name="COLOR_BACKGROUND_INVERSE_LIGHT" category="background-color">#ff16325c</color>
   <color name="COLOR_BACKGROUND_CUSTOMER" category="background-color">#ffff9a3c</color>
   <color name="COLOR_BACKGROUND_ERROR" category="background-color">#ffd4504c</color>
   <color name="COLOR_BACKGROUND_ALT" category="background-color">#ffffffff</color>
   <color name="COLOR_BACKGROUND_SUCCESS_DARKER" category="background-color">#ff004a29</color>
-  <color name="COLOR_BACKGROUND_ROW_SELECTED" category="background-color">#ffe9eaec</color>
+  <color name="COLOR_BACKGROUND_ROW_SELECTED" category="background-color">#ffecebea</color>
   <color name="COLOR_BRAND_DARKER" category="background-color">#ff005fb2</color>
   <color name="COLOR_BACKGROUND_SELECTION" category="background-color">#ffd8edff</color>
   <color name="COLOR_BACKGROUND_DESTRUCTIVE_ACTIVE" category="background-color">#ff870500</color>
@@ -35,25 +35,25 @@
   <color name="COLOR_BACKGROUND_HIGHLIGHT" category="background-color">#fffaffbd</color>
   <color name="COLOR_BORDER_ERROR_DARK" category="border-color">#ffea8288</color>
   <color name="COLOR_BORDER_BRAND_DARK" category="border-color">#ff0070d2</color>
-  <color name="COLOR_BORDER_INFO" category="border-color">#ff6b6d70</color>
+  <color name="COLOR_BORDER_INFO" category="border-color">#ff706e6b</color>
   <color name="COLOR_BORDER_WARNING" category="border-color">#ffffb75d</color>
   <color name="COLOR_BORDER_DESTRUCTIVE_HOVER" category="border-color">#ffa61a14</color>
-  <color name="COLOR_BORDER" category="border-color">#ffd9dbdd</color>
+  <color name="COLOR_BORDER" category="border-color">#ffdddbda</color>
   <color name="COLOR_BORDER_SUCCESS_DARK" category="border-color">#ff04844b</color>
   <color name="COLOR_BORDER_DESTRUCTIVE" category="border-color">#ffc23934</color>
-  <color name="COLOR_BORDER_SEPARATOR_ALT_2" category="border-color">#ffc4c6ca</color>
-  <color name="COLOR_BORDER_OFFLINE" category="border-color">#ff3e4041</color>
+  <color name="COLOR_BORDER_SEPARATOR_ALT_2" category="border-color">#ffc9c7c5</color>
+  <color name="COLOR_BORDER_OFFLINE" category="border-color">#ff3e3e3c</color>
   <color name="COLOR_BORDER_SUCCESS" category="border-color">#ff4bca81</color>
-  <color name="COLOR_BORDER_SEPARATOR" category="border-color">#fff9f9fa</color>
+  <color name="COLOR_BORDER_SEPARATOR" category="border-color">#fffafaf9</color>
   <color name="COLOR_BORDER_BRAND" category="border-color">#ff1589ee</color>
-  <color name="COLOR_BORDER_SELECTION_ACTIVE" category="border-color">#fff9f9fa</color>
+  <color name="COLOR_BORDER_SELECTION_ACTIVE" category="border-color">#fffafaf9</color>
   <color name="COLOR_BORDER_ERROR" category="border-color">#ffc23934</color>
   <color name="COLOR_BORDER_SELECTION_HOVER" category="border-color">#ff1589ee</color>
   <color name="COLOR_BORDER_ROW_SELECTED_HOVER" category="border-color">#ff1589ee</color>
   <color name="COLOR_BORDER_CUSTOMER" category="border-color">#ffff9a3c</color>
   <color name="COLOR_BORDER_SELECTION" category="border-color">#ff0070d2</color>
   <color name="COLOR_BORDER_ROW_SELECTED" category="border-color">#ff0070d2</color>
-  <color name="COLOR_BORDER_SEPARATOR_ALT" category="border-color">#ffd9dbdd</color>
+  <color name="COLOR_BORDER_SEPARATOR_ALT" category="border-color">#ffdddbda</color>
   <color name="COLOR_BORDER_INVERSE" category="border-color">#ff061c3f</color>
   <color name="COLOR_BORDER_DESTRUCTIVE_ACTIVE" category="border-color">#ff870500</color>
   <color name="COLOR_BORDER_ERROR_ALT" category="border-color">#ffea8288</color>
@@ -110,14 +110,14 @@
   <color name="COLOR_GRAY_11" category="color">#ff3e3e3c</color>
   <color name="BRAND_PRIMARY_TRANSPARENT_10" category="color">#1a1589ee</color>
   <color name="COLOR_GRAY_12" category="color">#ff2b2826</color>
-  <color name="BRAND_BACKGROUND_DARK_TRANSPARENT" category="color">#00dddbda</color>
+  <color name="BRAND_BACKGROUND_DARK_TRANSPARENT" category="color">#00195594</color>
   <color name="COLOR_GRAY_13" category="color">#ff080707</color>
   <color name="BRAND_HEADER" category="color">#ffffffff</color>
   <color name="BRAND_LIGHT_ACTIVE" category="color">#ffe3e5ed</color>
   <color name="BRAND_HEADER_CONTRAST_WARM" category="color">#ffbf0201</color>
   <color name="BRAND_HEADER_ICON_DISABLED" category="color">#40919191</color>
   <color name="BRAND_HEADER_CONTRAST_ACTIVE" category="color">#ff505050</color>
-  <color name="BRAND_BACKGROUND_PRIMARY" category="color">#fffafaf9</color>
+  <color name="BRAND_BACKGROUND_PRIMARY" category="color">#ffb0c4df</color>
   <color name="BRAND_PRIMARY" category="color">#ff1589ee</color>
   <color name="BRAND_HEADER_CONTRAST_WEAK_ACTIVE" category="color">#ff818181</color>
   <color name="BRAND_CONTRAST_ACTIVE" category="color">#ff0d0e12</color>
@@ -125,7 +125,7 @@
   <color name="BRAND_HEADER_CONTRAST_INVERSE" category="color">#ffffffff</color>
   <color name="BRAND_DARK" category="color">#ff182337</color>
   <color name="BRAND_ACCESSIBLE" category="color">#ff0070d2</color>
-  <color name="BRAND_BACKGROUND_DARK" category="color">#ffe8e8e8</color>
+  <color name="BRAND_BACKGROUND_DARK" category="color">#ff195594</color>
   <color name="BRAND_TEXT_LINK_ACTIVE" category="color">#ff005fb2</color>
   <color name="COLOR_GRAY_1" category="color">#ffffffff</color>
   <color name="COLOR_GRAY_2" category="color">#fffafaf9</color>
@@ -147,7 +147,7 @@
   <color name="BRAND_CONTRAST" category="color">#ff1a1b1e</color>
   <color name="BRAND_HEADER_CONTRAST_WEAK" category="color">#ff919191</color>
   <color name="BRAND_PRIMARY_ACTIVE" category="color">#ff007add</color>
-  <color name="BRAND_BACKGROUND_PRIMARY_TRANSPARENT" category="color">#00fafaf9</color>
+  <color name="BRAND_BACKGROUND_PRIMARY_TRANSPARENT" category="color">#00b0c4df</color>
   <color name="BRAND_HEADER_CONTRAST" category="color">#ff5e5e5e</color>
   <color name="BRAND_PRIMARY_TRANSPARENT" category="color">#1a1589ee</color>
   <color name="BRAND_HEADER_CONTRAST_WARM_ACTIVE" category="color">#ffac0000</color>
@@ -211,23 +211,23 @@
   <dimen name="VAR_SPACING_VERTICAL_XX_SMALL" category="spacing">4</dimen>
   <dimen name="VAR_SPACING_VERTICAL_X_LARGE" category="spacing">32</dimen>
   <dimen name="SPACING_LARGE" category="spacing">24</dimen>
-  <color name="COLOR_TEXT_ACTION_LABEL" category="text-color">#ff6b6d70</color>
+  <color name="COLOR_TEXT_ACTION_LABEL" category="text-color">#ff706e6b</color>
   <color name="COLOR_TEXT_LINK_INVERSE" category="text-color">#ffffffff</color>
   <color name="COLOR_TEXT_LINK_INVERSE_ACTIVE" category="text-color">#80ffffff</color>
-  <color name="COLOR_TEXT_ACTION_LABEL_ACTIVE" category="text-color">#ff16325c</color>
+  <color name="COLOR_TEXT_ACTION_LABEL_ACTIVE" category="text-color">#ff080707</color>
   <color name="COLOR_TEXT_WARNING" category="text-color">#ffffb75d</color>
   <color name="COLOR_TEXT_LINK_FOCUS" category="text-color">#ff005fb2</color>
   <color name="COLOR_TEXT_DESTRUCTIVE_HOVER" category="text-color">#ffa12b2b</color>
   <color name="COLOR_TEXT_LINK_DISABLED" category="text-color">#ff16325c</color>
-  <color name="COLOR_TEXT_DEFAULT" category="text-color">#ff16325c</color>
+  <color name="COLOR_TEXT_DEFAULT" category="text-color">#ff080707</color>
   <color name="COLOR_TEXT_DESTRUCTIVE" category="text-color">#ffc23934</color>
   <color name="COLOR_TEXT_LINK_HOVER" category="text-color">#ff005fb2</color>
   <color name="COLOR_TEXT_SUCCESS" category="text-color">#ff027e46</color>
-  <color name="COLOR_TEXT_WEAK" category="text-color">#ff6b6d70</color>
-  <color name="COLOR_TEXT_PLACEHOLDER_INVERSE" category="text-color">#ffe9eaec</color>
-  <color name="COLOR_TEXT_LINK" category="text-color">#ff0070d2</color>
+  <color name="COLOR_TEXT_WEAK" category="text-color">#ff3e3e3c</color>
+  <color name="COLOR_TEXT_PLACEHOLDER_INVERSE" category="text-color">#ffecebea</color>
+  <color name="COLOR_TEXT_LINK" category="text-color">#ff006dcc</color>
   <color name="COLOR_TEXT_WARNING_ALT" category="text-color">#ff844800</color>
-  <color name="COLOR_TEXT_ICON_DEFAULT" category="text-color">#ff6b6d70</color>
+  <color name="COLOR_TEXT_ICON_DEFAULT" category="text-color">#ff706e6b</color>
   <color name="COLOR_TEXT_BRAND" category="text-color">#ff1589ee</color>
   <color name="COLOR_TEXT_ERROR" category="text-color">#ffc23934</color>
   <color name="COLOR_TEXT_CUSTOMER" category="text-color">#ffff9a3c</color>
@@ -236,11 +236,11 @@
   <color name="COLOR_TEXT_REQUIRED" category="text-color">#ffc23934</color>
   <color name="COLOR_TEXT_LINK_INVERSE_DISABLED" category="text-color">#26ffffff</color>
   <color name="COLOR_TEXT_INVERSE" category="text-color">#ffffffff</color>
-  <color name="COLOR_TEXT_PLACEHOLDER" category="text-color">#ff6b6d70</color>
-  <color name="COLOR_TEXT_INVERSE_WEAK" category="text-color">#ffabadb0</color>
+  <color name="COLOR_TEXT_PLACEHOLDER" category="text-color">#ff706e6b</color>
+  <color name="COLOR_TEXT_INVERSE_WEAK" category="text-color">#ffb0adab</color>
   <color name="COLOR_TEXT_LINK_INVERSE_HOVER" category="text-color">#bfffffff</color>
   <color name="COLOR_TEXT_SUCCESS_INVERSE" category="text-color">#ff4bca81</color>
-  <color name="COLOR_TEXT_LABEL" category="text-color">#ff6b6d70</color>
+  <color name="COLOR_TEXT_LABEL" category="text-color">#ff3e3e3c</color>
   <dimen name="SQUARE_TAPPABLE" category="touch">44</dimen>
   <dimen name="SQUARE_TAPPABLE_SMALL" category="touch">32</dimen>
   <dimen name="SQUARE_TAPPABLE_X_SMALL" category="touch">24</dimen>

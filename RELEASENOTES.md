@@ -2,6 +2,16 @@
 
 ## [Unreleased]
 
+## [0.0.4] - 2019-8-9
+
+### Added
+
+- Added brand aliases
+
+### Changed
+
+- Migrated all grays to use warm palette since that is the default for Salesforce's UI
+
 ## [0.0.3] - 2019-8-8
 
 ### Added
@@ -27,5 +37,6 @@
 
 - Moved all global scoped tokens to this repository
 
-[Unreleased]: https://github.com/salesforce-ux/design-system-primitive-tokens/compare/v0.0.3...HEAD
+[Unreleased]: https://github.com/salesforce-ux/design-system-primitive-tokens/compare/v0.0.4...HEAD
+[0.0.4]: https://github.com/salesforce-ux/design-system-primitive-tokens/releases/tag/v0.0.4
 [0.0.3]: https://github.com/salesforce-ux/design-system-primitive-tokens/releases/tag/v0.0.3
