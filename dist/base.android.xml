@@ -211,7 +211,7 @@
   <dimen name="VAR_SPACING_VERTICAL_XX_SMALL" category="spacing">4</dimen>
   <dimen name="VAR_SPACING_VERTICAL_X_LARGE" category="spacing">32</dimen>
   <dimen name="SPACING_LARGE" category="spacing">24</dimen>
-  <color name="COLOR_TEXT_ACTION_LABEL" category="text-color">#ff706e6b</color>
+  <color name="COLOR_TEXT_ACTION_LABEL" category="text-color">#ff3e3e3c</color>
   <color name="COLOR_TEXT_LINK_INVERSE" category="text-color">#ffffffff</color>
   <color name="COLOR_TEXT_LINK_INVERSE_ACTIVE" category="text-color">#80ffffff</color>
   <color name="COLOR_TEXT_ACTION_LABEL_ACTIVE" category="text-color">#ff080707</color>

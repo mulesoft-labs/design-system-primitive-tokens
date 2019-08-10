@@ -210,7 +210,7 @@
   <aura:token name="varSpacingVerticalXxSmall" property="top,bottom,margin-top,margin-bottom,padding-top,padding-bottom" value="0.25rem"/>
   <aura:token name="varSpacingVerticalXLarge" property="top,bottom,margin-top,margin-bottom,padding-top,padding-bottom" value="2rem"/>
   <aura:token name="spacingLarge" property="top,right,bottom,left,margin*,padding*,border*,*width,*height,box-shadow,stroke,stroke-width" value="1.5rem"/>
-  <aura:token name="colorTextActionLabel" property="color,fill" value="rgb(112, 110, 107)"/>
+  <aura:token name="colorTextActionLabel" property="color,fill" value="rgb(62, 62, 60)"/>
   <aura:token name="colorTextLinkInverse" property="color,fill" value="rgb(255, 255, 255)"/>
   <aura:token name="colorTextLinkInverseActive" property="color,fill" value="rgba(255, 255, 255, 0.5)"/>
   <aura:token name="colorTextActionLabelActive" property="color,fill" value="rgb(8, 7, 7)"/>

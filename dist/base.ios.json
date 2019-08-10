@@ -3666,7 +3666,7 @@
       "access": "global",
       "primitive": true,
       "name": "colorTextActionLabel",
-      "value": "rgb(112, 110, 107)",
+      "value": "rgb(62, 62, 60)",
       "scope": "global",
       "cssProperties": [
         "color",

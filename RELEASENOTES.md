@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [0.0.5] - 2019-8-9
+
+### Fixed
+
+- Fixed value of `COLOR_TEXT_ACTION_LABEL`
+
 ## [0.0.4] - 2019-8-9
 
 ### Added
@@ -37,6 +43,7 @@
 
 - Moved all global scoped tokens to this repository
 
-[Unreleased]: https://github.com/salesforce-ux/design-system-primitive-tokens/compare/v0.0.4...HEAD
+[Unreleased]: https://github.com/salesforce-ux/design-system-primitive-tokens/compare/v0.0.5...HEAD
+[0.0.5]: https://github.com/salesforce-ux/design-system-primitive-tokens/releases/tag/v0.0.5
 [0.0.4]: https://github.com/salesforce-ux/design-system-primitive-tokens/releases/tag/v0.0.4
 [0.0.3]: https://github.com/salesforce-ux/design-system-primitive-tokens/releases/tag/v0.0.3

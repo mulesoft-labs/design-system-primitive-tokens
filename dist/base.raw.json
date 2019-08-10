@@ -4548,11 +4548,11 @@
       "comment": "Constant spacing token for size Large"
     },
     "COLOR_TEXT_ACTION_LABEL": {
-      "originalValue": "{!PALETTE_GRAY_9}",
+      "originalValue": "{!PALETTE_GRAY_11}",
       "access": "global",
       "primitive": true,
       "name": "COLOR_TEXT_ACTION_LABEL",
-      "value": "#706e6b",
+      "value": "#3e3e3c",
       "scope": "global",
       "cssProperties": [
         "color",

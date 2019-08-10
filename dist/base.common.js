@@ -416,7 +416,7 @@ module.exports = {
   /* Constant spacing token for size Large */
   spacingLarge: "1.5rem",
   /* Action label text color */
-  colorTextActionLabel: "rgb(112, 110, 107)",
+  colorTextActionLabel: "rgb(62, 62, 60)",
   /* Link color on dark background */
   colorTextLinkInverse: "rgb(255, 255, 255)",
   /* Link color on dark background - active state */
