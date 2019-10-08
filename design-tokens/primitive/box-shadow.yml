@@ -13,7 +13,7 @@ imports:
 - ../aliases/color-palettes.yml
 props:
   SHADOW_ACTIVE:
-    value: '{!OFFSET_NONE} {!OFFSET_NONE} {!OFFSET_SMALL}px {!BRAND_ACCESSIBLE}'
+    value: '{!OFFSET_NONE} {!OFFSET_NONE} {!OFFSET_X_SMALL}px {!BRAND_ACCESSIBLE}'
     comment: Shadow for active states on interactive elements.
     access: global
   SHADOW_DRAG:
