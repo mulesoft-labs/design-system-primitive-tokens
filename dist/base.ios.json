@@ -966,6 +966,18 @@
       "category": "border-style"
     },
     {
+      "primitive": true,
+      "name": "shadowActive",
+      "value": "0 0 2px #0070d2",
+      "scope": "global",
+      "cssProperties": [
+        "box-shadow"
+      ],
+      "type": "box-shadow",
+      "category": "shadow",
+      "comment": "Shadow for active states on interactive elements."
+    },
+    {
       "access": "global",
       "primitive": true,
       "name": "shadowDrag",
