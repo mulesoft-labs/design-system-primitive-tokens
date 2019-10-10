@@ -63,6 +63,7 @@
   <aura:token name="borderRadiusCircle" property="border*radius" value="50%"/>
   <aura:token name="borderWidthThin" property="top,right,bottom,left,margin*,padding*,border*,*width,*height,box-shadow,stroke,stroke-width" value="1px"/>
   <aura:token name="borderWidthThick" property="top,right,bottom,left,margin*,padding*,border*,*width,*height,box-shadow,stroke,stroke-width" value="2px"/>
+  <aura:token name="shadowActive" property="box-shadow" value="0 0 2px #0070d2"/>
   <aura:token name="shadowDrag" property="box-shadow" value="0 2px 4px 0 rgba(0, 0, 0, 0.40)"/>
   <aura:token name="shadowDropDown" property="box-shadow" value="0 2px 3px 0 rgba(0, 0, 0, 0.16)"/>
   <aura:token name="durationInstantly" property="animation*,transition*" value="0s"/>

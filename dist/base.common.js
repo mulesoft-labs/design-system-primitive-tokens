@@ -123,6 +123,8 @@ module.exports = {
   borderRadiusCircle: "50%",
   borderWidthThin: "1px",
   borderWidthThick: "2px",
+  /* Shadow for active states on interactive elements. */
+  shadowActive: "0 0 2px #0070d2",
   /* Shadow for drag-n-drop. */
   shadowDrag: "0 2px 4px 0 rgba(0, 0, 0, 0.40)",
   /* Shadow for drop down. */

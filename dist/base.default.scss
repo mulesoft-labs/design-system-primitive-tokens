@@ -123,6 +123,8 @@ $border-radius-large: 0.5rem !default;
 $border-radius-circle: 50% !default;
 $border-width-thin: 1px !default;
 $border-width-thick: 2px !default;
+/* Shadow for active states on interactive elements. */
+$shadow-active: 0 0 2px #0070d2 !default;
 /* Shadow for drag-n-drop. */
 $shadow-drag: 0 2px 4px 0 rgba(0, 0, 0, 0.40) !default;
 /* Shadow for drop down. */

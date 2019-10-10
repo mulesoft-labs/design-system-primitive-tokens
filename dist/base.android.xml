@@ -64,6 +64,7 @@
   <dimen name="BORDER_RADIUS_CIRCLE" category="radius">0.5</dimen>
   <dimen name="BORDER_WIDTH_THIN" category="border-style">1dp</dimen>
   <dimen name="BORDER_WIDTH_THICK" category="border-style">2dp</dimen>
+  <property name="SHADOW_ACTIVE" category="shadow">0 0 2px #0070d2</property>
   <property name="SHADOW_DRAG" category="shadow">0 2px 4px 0 rgba(0, 0, 0, 0.40)</property>
   <property name="SHADOW_DROP_DOWN" category="shadow">0 2px 3px 0 rgba(0, 0, 0, 0.16)</property>
   <property name="DURATION_INSTANTLY" category="time">0s</property>

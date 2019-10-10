@@ -1703,6 +1703,19 @@
       "type": "size",
       "category": "border-style"
     },
+    "SHADOW_ACTIVE": {
+      "originalValue": "{!OFFSET_NONE} {!OFFSET_NONE} {!OFFSET_X_SMALL}px {!BRAND_ACCESSIBLE}",
+      "primitive": true,
+      "name": "SHADOW_ACTIVE",
+      "value": "0 0 2px #0070d2",
+      "scope": "global",
+      "cssProperties": [
+        "box-shadow"
+      ],
+      "type": "box-shadow",
+      "category": "shadow",
+      "comment": "Shadow for active states on interactive elements."
+    },
     "SHADOW_DRAG": {
       "originalValue": "{!OFFSET_NONE} {!OFFSET_X_SMALL}px {!OFFSET_MEDIUM}px {!OFFSET_NONE} {!BLACK_TRANSPARENT_40}",
       "access": "global",

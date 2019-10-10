@@ -63,6 +63,7 @@
   "BORDER_RADIUS_CIRCLE": "50%",
   "BORDER_WIDTH_THIN": "1px",
   "BORDER_WIDTH_THICK": "2px",
+  "SHADOW_ACTIVE": "0 0 2px #0070d2",
   "SHADOW_DRAG": "0 2px 4px 0 rgba(0, 0, 0, 0.40)",
   "SHADOW_DROP_DOWN": "0 2px 3px 0 rgba(0, 0, 0, 0.16)",
   "DURATION_INSTANTLY": "0s",

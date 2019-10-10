@@ -124,6 +124,8 @@
   --border-radius-circle: 50%;
   --border-width-thin: 1px;
   --border-width-thick: 2px;
+  /* Shadow for active states on interactive elements. */
+  --shadow-active: 0 0 2px #0070d2;
   /* Shadow for drag-n-drop. */
   --shadow-drag: 0 2px 4px 0 rgba(0, 0, 0, 0.40);
   /* Shadow for drop down. */
