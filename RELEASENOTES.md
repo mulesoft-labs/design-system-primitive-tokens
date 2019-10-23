@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [0.0.6] - 2019-10-23
+
+### Added
+
+- Created `SHADOW_ACTIVE` token for active states of interactive elements.
+
 ## [0.0.5] - 2019-8-9
 
 ### Fixed
