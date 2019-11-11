@@ -23,6 +23,22 @@ const formats = [
 ];
 
 const globalAccess = [
+  'brandPrimary',
+  'brandPrimaryActive',
+  'brandPrimaryTransparent',
+  'brandLight',
+  'brandLightActive',
+  'brandDark',
+  'brandDarkActive',
+  'brandAccessible',
+  'brandAccessibleActive',
+  'brandDisabled',
+  'brandContrast',
+  'brandContrastActive',
+  'brandBackgroundPrimary',
+  'brandBackgroundDark',
+  'brandTextLink',
+  'brandTextLinkActive',
   'colorBackground',
   'colorBackgroundAlt',
   'colorBackgroundAltInverse',

@@ -2,6 +2,28 @@
 
 ## [Unreleased]
 
+## [0.0.7] - 2019-11-11
+
+### Changed
+
+- Set `access:global` to the following tokens:
+  - `brandPrimary`
+  - `brandPrimaryActive`
+  - `brandPrimaryTransparent`
+  - `brandLight`
+  - `brandLightActive`
+  - `brandDark`
+  - `brandDarkActive`
+  - `brandAccessible`
+  - `brandAccessibleActive`
+  - `brandDisabled`
+  - `brandContrast`
+  - `brandContrastActive`
+  - `brandBackgroundPrimary`
+  - `brandBackgroundDark`
+  - `brandTextLink`
+  - `brandTextLinkActive`
+
 ## [0.0.6] - 2019-10-23
 
 ### Added

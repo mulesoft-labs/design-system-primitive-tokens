@@ -1657,6 +1657,7 @@
     },
     {
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "brandLightActive",
@@ -1729,6 +1730,7 @@
     },
     {
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "brandBackgroundPrimary",
@@ -1747,6 +1749,7 @@
     },
     {
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "brandPrimary",
@@ -1783,6 +1786,7 @@
     },
     {
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "brandContrastActive",
@@ -1837,6 +1841,7 @@
     },
     {
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "brandDark",
@@ -1855,6 +1860,7 @@
     },
     {
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "brandAccessible",
@@ -1873,6 +1879,7 @@
     },
     {
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "brandBackgroundDark",
@@ -1891,6 +1898,7 @@
     },
     {
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "brandTextLinkActive",
@@ -1996,6 +2004,7 @@
     },
     {
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "brandDisabled",
@@ -2014,6 +2023,7 @@
     },
     {
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "brandTextLink",
@@ -2083,6 +2093,7 @@
     },
     {
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "brandAccessibleActive",
@@ -2118,6 +2129,7 @@
     },
     {
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "brandDarkActive",
@@ -2206,6 +2218,7 @@
     },
     {
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "brandContrast",
@@ -2242,6 +2255,7 @@
     },
     {
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "brandPrimaryActive",
@@ -2296,6 +2310,7 @@
     },
     {
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "brandPrimaryTransparent",
@@ -2350,6 +2365,7 @@
     },
     {
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "brandLight",

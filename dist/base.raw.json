@@ -2446,6 +2446,7 @@
     "BRAND_LIGHT_ACTIVE": {
       "originalValue": "{!BRAND_LIGHT_ACTIVE}",
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "BRAND_LIGHT_ACTIVE",
@@ -2522,6 +2523,7 @@
     "BRAND_BACKGROUND_PRIMARY": {
       "originalValue": "{!BRAND_BACKGROUND_PRIMARY}",
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "BRAND_BACKGROUND_PRIMARY",
@@ -2541,6 +2543,7 @@
     "BRAND_PRIMARY": {
       "originalValue": "{!BRAND_PRIMARY}",
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "BRAND_PRIMARY",
@@ -2579,6 +2582,7 @@
     "BRAND_CONTRAST_ACTIVE": {
       "originalValue": "{!BRAND_CONTRAST_ACTIVE}",
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "BRAND_CONTRAST_ACTIVE",
@@ -2636,6 +2640,7 @@
     "BRAND_DARK": {
       "originalValue": "{!BRAND_DARK}",
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "BRAND_DARK",
@@ -2655,6 +2660,7 @@
     "BRAND_ACCESSIBLE": {
       "originalValue": "{!BRAND_ACCESSIBLE}",
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "BRAND_ACCESSIBLE",
@@ -2674,6 +2680,7 @@
     "BRAND_BACKGROUND_DARK": {
       "originalValue": "{!BRAND_BACKGROUND_DARK}",
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "BRAND_BACKGROUND_DARK",
@@ -2693,6 +2700,7 @@
     "BRAND_TEXT_LINK_ACTIVE": {
       "originalValue": "{!BRAND_TEXT_LINK_ACTIVE}",
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "BRAND_TEXT_LINK_ACTIVE",
@@ -2804,6 +2812,7 @@
     "BRAND_DISABLED": {
       "originalValue": "{!BRAND_DISABLED}",
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "BRAND_DISABLED",
@@ -2823,6 +2832,7 @@
     "BRAND_TEXT_LINK": {
       "originalValue": "{!BRAND_TEXT_LINK}",
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "BRAND_TEXT_LINK",
@@ -2896,6 +2906,7 @@
     "BRAND_ACCESSIBLE_ACTIVE": {
       "originalValue": "{!BRAND_ACCESSIBLE_ACTIVE}",
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "BRAND_ACCESSIBLE_ACTIVE",
@@ -2933,6 +2944,7 @@
     "BRAND_DARK_ACTIVE": {
       "originalValue": "{!BRAND_DARK_ACTIVE}",
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "BRAND_DARK_ACTIVE",
@@ -3026,6 +3038,7 @@
     "BRAND_CONTRAST": {
       "originalValue": "{!BRAND_CONTRAST}",
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "BRAND_CONTRAST",
@@ -3064,6 +3077,7 @@
     "BRAND_PRIMARY_ACTIVE": {
       "originalValue": "{!BRAND_PRIMARY_ACTIVE}",
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "BRAND_PRIMARY_ACTIVE",
@@ -3121,6 +3135,7 @@
     "BRAND_PRIMARY_TRANSPARENT": {
       "originalValue": "rgba(21,137,238,0.1)",
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "BRAND_PRIMARY_TRANSPARENT",
@@ -3178,6 +3193,7 @@
     "BRAND_LIGHT": {
       "originalValue": "{!BRAND_LIGHT}",
       "themeable": true,
+      "access": "global",
       "release": "2.6.0",
       "primitive": true,
       "name": "BRAND_LIGHT",
