@@ -2,6 +2,8 @@
 
 Welcome to the [Salesforce Lightning Design System](https://www.lightningdesignsystem.com) Primitive Tokens brought to you by [Salesforce UX](https://twitter.com/salesforceux).
 
+[![Build Status](https://travis-ci.com/salesforce-ux/design-system-primitive-tokens.svg?token=25JxdcC3MfQrezbAmHvW&branch=master)](https://travis-ci.com/salesforce-ux/design-system-primitive-tokens) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=salesforce-ux/design-system-primitive-tokens&identifier=180633818)](https://dependabot.com)
+
 * Primitive tokens are an abstraction of Salesforce's UI into name and value design properties.
 
 ## Quick start
