@@ -1,6 +1,4 @@
-# Salesforce Lightning Design System Primitive Tokens
-
-Welcome to the [Salesforce Lightning Design System](https://www.lightningdesignsystem.com) Primitive Tokens brought to you by [Salesforce UX](https://twitter.com/salesforceux).
+# Salesforce Lightning Design System Primitive Tokens for MuleSoft Citizen Applications
 
 [![Build Status](https://travis-ci.com/salesforce-ux/design-system-primitive-tokens.svg?token=25JxdcC3MfQrezbAmHvW&branch=master)](https://travis-ci.com/salesforce-ux/design-system-primitive-tokens) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=salesforce-ux/design-system-primitive-tokens&identifier=180633818)](https://dependabot.com)
 
@@ -24,6 +22,10 @@ Welcome to the [Salesforce Lightning Design System](https://www.lightningdesigns
 ### Tests
 
 `npm run test`
+
+### Publish
+
+`npm run publish-package` - Increments version, builds and pushes to [NPM package](https://www.npmjs.com/package/@mulesoft-labs/design-system-primitive-tokens)
 
 ## Add new aliases
 
