@@ -6,7 +6,7 @@
 
 ## Quick start
 
-1. Clone the project with `git clone https://github.com/salesforce-ux/design-system-primitive-tokens.git`
+1. Clone the project with `git clone https://github.com/mulesoft-labs/design-system-primitive-tokens.git`
 2. Run `npm install` in the root design-system-primitive-tokens folder.
 
 ## Build Tokens
