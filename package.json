@@ -1,6 +1,6 @@
 {
-  "name": "@salesforce-ux/design-system-primitive-tokens",
-  "version": "0.0.8",
+  "name": "@mulesoft-labs/design-system-primitive-tokens",
+  "version": "0.0.0",
   "description": "Primitive tokens are an abstraction of Salesforce's UI into name and value design properties",
   "author": "Salesforce",
   "license": "SEE LICENSE IN README.md",
@@ -8,7 +8,8 @@
     "build": "node ./src/generate.js",
     "lint": "node ./src/lint.js",
     "test": "jest",
-    "precommit": "lint-staged && npm run lint && npm run test"
+    "precommit": "lint-staged && npm run lint && npm run test",
+    "publish-package": "npm version patch && npm run build && cp ./package.json ./dist && npm publish ./dist --access public"
   },
   "devDependencies": {
     "async": "^3.1.1",
