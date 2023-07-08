@@ -18,7 +18,7 @@
     "gulp": "^4.0.2",
     "gulp-theo": "^2.0.0",
     "gulp-yaml-validate": "^1.0.2",
-    "jest": "^24.7.1",
+    "jest": "^29.6.1",
     "js-yaml": "^3.13.1",
     "lint-staged": "^10.0.6",
     "lodash": "^4.17.15",
